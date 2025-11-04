@@ -1,0 +1,688 @@
+NUMERO,DURATA,MAT_NOME,DOC_COGN,CLASSE,CO-DOC.,GIORNO,O.INIZIO
+1,1h00,Lettere,Ferrari,4^ B TUR,N,lunedì,08h00
+2,2h00,TTRG,Bianchi,2^ D INF,N,lunedì,08h00
+3,2h00,A TE/PRO .,Rinaldi;  Mancini,2^ C IeFP,S,lunedì,08h00
+4,1h00,TPSIT,Esposito,4^ D INF,N,lunedì,08h00
+5,3h00,Informatica,Molinari;  Costa,3^ D INF,S,lunedì,08h00
+6,1h00,GPOI,Coppola;  Barbieri,5^ D INF,S,lunedì,08h00
+7,1h00,Tec mec,Lombardo,4^ F MEC,N,lunedì,08h00
+8,2h00,A LING ED. FIS,Gentile,3^ C IeFP,N,lunedì,08h00
+9,1h00,Religione,Bianco,5^ B TUR,N,lunedì,08h00
+10,1h00,Religione,Greco,1^ G AGR,N,lunedì,08h00
+11,1h00,Lettere,Gatti,3^ F MEC,N,lunedì,08h00
+12,1h00,Meccanica,Leone;  De Santis,5^ F MEC,S,lunedì
+13,1h00,Inglese,Galli,1^ D INF,N,lunedì,08h00
+14,1h00,Storia,Russo,1^ F MEC,N,lunedì,08h00
+15,1h00,Dir ec pol,Rossi;  Ruggiero,2^G AGR,S,lunedì
+16,1h00,Chimica,Neri,2^ F MEC,N,lunedì,08h00
+17,1h00,Scienze,Rossi,2^ A MAT,N,lunedì,08h00
+18,1h00,LTE,Pellegrini;  Romano,1^ A MAT,S,lunedì
+19,1h00,Dir leg tur,Bruno;  Ricci,3^ B TUR,S,lunedì
+20,1h00,A TE/PRO FIS,Gallo;  Ferrara,1^ C IeFP,S,lunedì
+21,2h00,TTIM,Bernardi;  Martini;  Riva,5^ A MAT,S,lunedì
+22,1h00,Matematica,Caruso;  Palumbo,3^ A MAT,N,lunedì
+23,1h00,Storia,Conti,4^ A MAT,N,lunedì,08h00
+24,1h00,Estimo,Morelli,3^G AGR,N,lunedì,08h00
+25,1h00,Disposizione,Sanna,Disposizione,N,lunedì,08h00
+26,1h00,TPSIT,Esposito,5^ D INF,N,lunedì,09h00
+27,1h00,Tec mec,Lombardo,3^ F MEC,N,lunedì,09h00
+28,1h00,Fisica,Gallo,1^ D INF,N,lunedì,09h00
+29,1h00,Religione,Bianco,4^ F MEC,N,lunedì,09h00
+30,1h00,Religione,Greco,4^ A MAT,N,lunedì,09h00
+31,1h00,Dir leg tur,Bruno;  Romano,4^ B TUR,S,lunedì
+32,2h00,Sistemi,Martinelli;  De Santis,5^ F MEC,S,lunedì
+33,1h00,Inglese,Ferri;  Ricci,3^ B TUR,S,lunedì
+34,1h00,Chimica,Ferraro;  De Luca,1^ G AGR,S,lunedì
+35,1h00,Scienze,Neri,2^ F MEC,N,lunedì,09h00
+36,1h00,Matematica,Sanna,4^ D INF,N,lunedì,09h00
+37,1h00,Inglese,Galli;  Ruggiero,2^G AGR,S,lunedì
+38,1h00,A MA/SCI MAT,Rossi;  Ferrara,1^ C IeFP,S,lunedì
+39,1h00,Matematica,Caruso,2^ A MAT,N,lunedì,09h00
+40,1h00,Storia,Gatti;  Palumbo,3^ A MAT,N,lunedì
+41,2h00,Tec inf,Coppola;  Barbieri,1^ F MEC,S,lunedì
+42,1h00,Disposizione,Rossi,Disposizione,N,lunedì,09h00
+43,2h00,Pr. Vegetali,Santoro;  Morelli,3^G AGR,S,lunedì
+44,1h00,Tedesco,Lombardi,5^ B TUR,N,lunedì,09h00
+45,1h00,Disposizione,Rizzo,Disposizione,N,lunedì,09h00
+46,1h00,LTE,Pellegrini;  Ferretti,1^ A MAT,S,lunedì
+47,1h00,Lettere,Ferrari;  Ricci,3^ B TUR,S,lunedì
+48,1h00,Inglese,Ferri,4^ F MEC,N,lunedì,10h00
+49,2h00,Sc motorie,Fontana,5^ D INF,N,lunedì,10h00
+50,1h00,Religione,Bianco,3^ F MEC,N,lunedì,10h00
+51,1h00,Dir leg tur,Bruno,5^ B TUR,N,lunedì,10h00
+52,1h00,Dir ec pol,Rossi,2^ D INF,N,lunedì,10h00
+53,1h00,Storia,Russo,2^ F MEC,N,lunedì,10h00
+54,1h00,A MA/SCI SCI,Neri,2^ C IeFP,N,lunedì,10h00
+55,1h00,Storia,D'Angelo,4^ D INF,N,lunedì,10h00
+56,1h00,Lettere,Marino;  Conti,5^ A MAT,S,lunedì
+57,1h00,Storia,Rizzo,2^ A MAT,N,lunedì,10h00
+58,2h00,TEEA,Pellegrini;  Marino;  Palumbo,3^ A MAT,S,lunedì
+59,1h00,Fisica,Gallo;  De Luca,1^ G AGR,S,lunedì
+60,1h00,LTE,Vitale,4^ A MAT,N,lunedì,10h00
+61,1h00,Matematica,Caruso;  Riva,1^ A MAT,N,lunedì
+62,1h00,A TE/PRO.,Mancini;  Ferrara,1^ C IeFP,S,lunedì
+63,1h00,Matematica,Sanna,1^ D INF,N,lunedì,10h00
+64,3h00,A TE/PRO..,Leone;  Bellini,3^ C IeFP,S,lunedì
+65,1h00,Religione,Greco,2^G AGR,N,lunedì,10h00
+66,1h00,Tedesco,Romano;  Lombardi,4^ B TUR,S,lunedì
+67,1h00,Disposizione,Mariani,Disposizione,N,lunedì,10h00
+68,1h00,Disposizione,Rossi,Disposizione,N,lunedì,10h00
+69,1h00,Lettere,Russo,5^ B TUR,N,lunedì,11h10
+70,2h00,A TE/PRO .,Rinaldi;  Mancini,1^ C IeFP,S,lunedì
+71,2h00,Sistemi,Esposito;  Coppola,4^ D INF,S,lunedì
+72,1h00,STA,Barbieri,2^ D INF,N,lunedì,11h10
+73,1h00,Inglese,Ferri,3^ F MEC,N,lunedì,11h10
+74,1h00,STA,Lombardo,2^ F MEC,N,lunedì,11h10
+75,1h00,A LING REL,Greco,2^ C IeFP,N,lunedì,11h10
+76,1h00,Storia,D'Angelo;  De Luca,3^G AGR,S,lunedì
+77,1h00,Storia,Ferrari;  Russo,3^ D INF,N,lunedì
+78,1h00,Chimica,Ferraro;  Santoro,1^ F MEC,S,lunedì
+79,2h00,Lettere,Rizzo,4^ F MEC,N,lunedì,11h10
+80,1h00,Lettere,Romano;  Ferrari,1^ A MAT,S,lunedì
+81,1h00,Dir ec pol,Rossi,2^ A MAT,N,lunedì,11h10
+82,1h00,TTRG,Bianchi;  Martinelli,1^ D INF,S,lunedì
+83,1h00,TTIM,Vitale;  Bernardi,4^ A MAT,S,lunedì
+84,1h00,Religione,Bianco,4^ B TUR,N,lunedì,11h10
+85,2h00,Dis prog,De Santis,5^ F MEC,N,lunedì,11h10
+86,1h00,Matematica,Mariani;  Ferretti,1^ G AGR,S,lunedì
+87,1h00,Disposizione,Galli,Disposizione,N,lunedì,11h10
+88,1h00,Storia,Ruggiero;  Gatti,2^G AGR,S,lunedì
+89,1h00,Tedesco,Ricci;  Lombardi,3^ B TUR,S,lunedì
+90,1h00,Lettere,Marino;  Conti;  Riva,5^ A MAT,S,lunedì
+91,1h00,Lettere,Ferrari,2^ D INF,N,lunedì,12h05
+92,1h00,Inglese,Ferri,4^ B TUR,N,lunedì,12h05
+93,1h00,Sc motorie,Fontana,2^ A MAT,N,lunedì,12h05
+94,2h00,Sc motorie,Gentile,1^ D INF,N,lunedì,12h05
+95,1h00,A TE/PRO FIS,Gallo,2^ C IeFP,N,lunedì,12h05
+96,1h00,Storia,Ferrari,3^ B TUR,N,lunedì,12h05
+97,1h00,Inglese,Galli;  Russo,3^ D INF,N,lunedì
+98,1h00,Lettere,Russo,2^ F MEC,N,lunedì,12h05
+99,2h00,TEEA,Marino;  Martini,4^ A MAT,S,lunedì
+100,1h00,Scienze,Ferraro;  Ferretti,1^ G AGR,S,lunedì
+101,1h00,TTIM,Bernardi;  Palumbo,3^ A MAT,N,lunedì
+102,1h00,Storia,Gatti,3^ F MEC,N,lunedì,12h05
+103,1h00,Informatica,Molinari,5^ D INF,N,lunedì,12h05
+104,1h00,Matematica,Mariani,2^G AGR,N,lunedì,12h05
+105,1h00,Tec inf,Costa;  Barbieri,1^ A MAT,S,lunedì
+106,1h00,Inglese,Esposito;  De Luca,3^G AGR,S,lunedì
+107,1h00,Disposizione,D'Angelo,Disposizione,N,lunedì,12h05
+108,1h00,Tedesco,Lombardi,5^ B TUR,N,lunedì,12h05
+109,1h00,TTRG,Bianchi;  Ruggiero,1^ F MEC,S,lunedì
+110,1h00,LTE,Vitale;  Marino;  Riva,5^ A MAT,S,lunedì
+111,1h00,TTRG,Bianchi,1^ F MEC,N,lunedì,13h00
+112,1h00,Fisica,Gallo,2^ D INF,N,lunedì,13h00
+113,1h00,Lettere,D'Angelo,4^ D INF,N,lunedì,13h00
+114,1h00,Inglese,Esposito,5^ D INF,N,lunedì,13h00
+115,1h00,Chimica,Ferraro,2^G AGR,N,lunedì,13h00
+116,1h00,LTE,Vitale;  Marino,5^ A MAT,S,lunedì
+117,1h00,Lettere,Ferrari,1^ G AGR,N,lunedì,13h00
+118,1h00,Comp. mat.,Mariani;  De Luca,3^G AGR,S,lunedì
+119,1h00,Sc motorie,Fontana;  Palumbo,2^ A MAT,N,lunedì
+120,1h00,Matematica,Sanna;  Ferrara,3^ D INF,S,martedì
+121,1h00,Storia,Russo,5^ B TUR,N,martedì,08h00
+122,1h00,Spagnolo,Giordano;  Romano,4^ B TUR,S,martedì
+123,1h00,Inglese,Ferri,4^ F MEC,N,martedì,08h00
+124,1h00,Tec mec,Lombardo,5^ F MEC,N,martedì,08h00
+125,2h00,Sc motorie,Gentile;  Romano,3^ A MAT,S,martedì
+126,2h00,Dis prog,Rinaldi;  De Santis,3^ F MEC,S,martedì
+127,1h00,Lettere,D'Angelo,4^ D INF,N,martedì,08h00
+128,1h00,Dir ec pol,Rossi,1^ G AGR,N,martedì,08h00
+129,1h00,Inglese,Esposito,5^ D INF,N,martedì,08h00
+130,1h00,Geografia,Valentini;  Ricci,3^ B TUR,S,martedì
+131,1h00,Scienze,Rossi,2^ D INF,N,martedì,08h00
+132,1h00,Scienze,Neri,1^ D INF,N,martedì,08h00
+133,2h00,LTE,Pellegrini,2^ A MAT,N,martedì,08h00
+134,1h00,TMA,Colombo;  Marchetti,4^ A MAT,S,martedì
+135,1h00,Matematica,Montanari,1^ F MEC,N,martedì,08h00
+136,1h00,Matematica,Bianchi,2^ F MEC,N,martedì,08h00
+137,2h00,A LING ITA,Serra,1^ C IeFP,N,martedì,08h00
+138,2h00,A TE/PRO.,Mancini,2^ C IeFP,N,martedì,08h00
+139,2h00,A TE/PRO .,Leone,3^ C IeFP,N,martedì,08h00
+140,1h00,Matematica,Mariani,3^G AGR,N,martedì,08h00
+141,2h00,Sc motorie,Moretti,2^G AGR,N,martedì,08h00
+142,1h00,TEEA,Bernardi;  Martini,5^ A MAT,S,martedì
+143,1h00,Inglese,Longo;  Riva,1^ A MAT,N,martedì
+144,1h00,Disposizione,Rizzo,Disposizione,N,martedì,08h00
+145,1h00,Matematica,Messina,5^ B TUR,N,martedì,09h00
+146,1h00,Spagnolo,Giordano;  Romano,4^ B TUR,S,martedì
+147,1h00,TPSIT,Esposito;  Ferrara,3^ D INF,S,martedì
+148,1h00,Matematica,Rossi,4^ A MAT,N,martedì,09h00
+149,1h00,Lettere,D'Angelo,3^G AGR,N,martedì,09h00
+150,1h00,Inglese,Esposito,4^ D INF,N,martedì,09h00
+151,2h00,Lettere,Russo,2^ F MEC,N,martedì,09h00
+152,2h00,TTRG,Bianchi;  Colombo,1^ A MAT,S,martedì
+153,1h00,Chimica,Neri,1^ D INF,N,martedì,09h00
+154,1h00,Matematica,Bianchi,5^ F MEC,N,martedì,09h00
+155,2h00,Informatica,Molinari;  Costa,5^ D INF,S,martedì
+156,1h00,Ec. aziendale,Ricci;  Basile,3^ B TUR,S,martedì
+157,1h00,Inglese,Parisi,1^ F MEC,N,martedì,09h00
+158,1h00,Inglese,Galli;  Ferretti,1^ G AGR,S,martedì
+159,1h00,Matematica,Sanna,2^ D INF,N,martedì,09h00
+160,1h00,Meccanica,Marchetti,4^ F MEC,N,martedì,09h00
+161,1h00,Disposizione,Rizzo,Disposizione,N,martedì,09h00
+162,1h00,Disposizione,Ferri;  Valentini,Disposizione,S,martedì
+163,1h00,TEEA,Bernardi;  Martini;  Riva,5^ A MAT,S,martedì
+164,1h00,Storia,Ferrari;  Romano,4^ B TUR,S,martedì
+165,1h00,Spagnolo,Esposito;  Giordano,5^ B TUR,S,martedì
+166,3h00,Tec mec,Lombardo;  Martinelli,4^ F MEC,S,martedì
+167,1h00,Fisica,Gallo,2^G AGR,N,martedì,10h00
+168,1h00,Comp. mat.,Bianchi,3^ F MEC,N,martedì,10h00
+169,2h00,Sc motorie,Moretti,3^G AGR,N,martedì,10h00
+170,1h00,Inglese,Galli,2^ D INF,N,martedì,10h00
+171,2h00,Sc motorie,Fontana,1^ F MEC,N,martedì,10h00
+172,1h00,A ST/SO DIR,Sala;  Rossi,3^ C IeFP,S,martedì
+173,1h00,Comp. mat.,Sanna,4^ D INF,N,martedì,10h00
+174,2h00,TTIM,Pellegrini;  Bernardi;  Ricci,3^ A MAT,S,martedì
+175,2h00,Sistemi,Esposito;  Russo,3^ D INF,N,martedì
+176,1h00,Inglese,Romano;  Longo,2^ A MAT,S,martedì
+177,1h00,Matematica,Mariani;  Ferretti,1^ G AGR,S,martedì
+178,1h00,Inglese,Ferri,5^ F MEC,N,martedì,10h00
+179,1h00,A MA/SCI MAT,Rossi,2^ C IeFP,N,martedì,10h00
+180,2h00,Lettere,Serra,1^ D INF,N,martedì,10h00
+181,1h00,Lettere,Conti,4^ A MAT,N,martedì,10h00
+182,1h00,A TE/PRO.,Mancini,1^ C IeFP,N,martedì,10h00
+183,1h00,TMA,De Santis;  Marino;  Riva,5^ A MAT,S,martedì
+184,1h00,Disposizione,Valentini,Disposizione,N,martedì,10h00
+185,1h00,Disposizione,Zanetti,Disposizione,N,martedì,10h00
+186,1h00,Ec. aziendale,Basile,3^ B TUR,N,martedì,10h00
+187,1h00,Matematica,Montanari,5^ D INF,N,martedì,11h10
+188,2h00,Informatica,Molinari,4^ D INF,N,martedì,11h10
+189,2h00,Tec inf,Costa;  Barbieri,2^ A MAT,S,martedì
+190,1h00,Fisica,Gallo,2^ F MEC,N,martedì,11h10
+191,2h00,TEEA,Marino,4^ A MAT,N,martedì,11h10
+192,1h00,Lettere,Ferrari,3^ B TUR,N,martedì,11h10
+193,1h00,Ec. aziendale,Zanetti,5^ B TUR,N,martedì,11h10
+194,1h00,Lettere,Farina,5^ F MEC,N,martedì,11h10
+195,1h00,TTRG,Bianchi;  De Luca,1^ G AGR,S,martedì
+196,1h00,Chimica,Rossi,2^ D INF,N,martedì,11h10
+197,1h00,A LING ING,Longo,2^ C IeFP,N,martedì,11h10
+198,2h00,Meccanica,De Santis,3^ F MEC,N,martedì,11h10
+199,1h00,Scienze,Coppola;  Neri,1^ A MAT,S,martedì
+200,2h00,Matematica,Mariani,2^G AGR,N,martedì,11h10
+201,1h00,Matematica,Messina;  Romano,4^ B TUR,S,martedì
+202,1h00,Disposizione,Parisi,Disposizione,N,martedì,11h10
+203,1h00,Disposizione,Conti,Disposizione,N,martedì,11h10
+204,1h00,A MA/SCI SCI,Bianchi;  Sala,3^ C IeFP,S,martedì
+205,1h00,A TE/PRO.,Mancini;  Ferrara,1^ C IeFP,S,martedì
+206,1h00,LTE,Vitale;  Marino;  Riva,5^ A MAT,S,martedì
+207,1h00,Lettere,Ferrari,2^ D INF,N,martedì,12h05
+208,1h00,Matematica,Messina,3^ B TUR,N,martedì,12h05
+209,1h00,Spagnolo,Giordano,5^ B TUR,N,martedì,12h05
+210,1h00,TPSIT,Esposito;  Coppola,5^ D INF,S,martedì
+211,1h00,Fisica,Gallo,1^ D INF,N,martedì,12h05
+212,2h00,Lettere,Ferrari;  Russo,3^ D INF,N,martedì
+213,1h00,A MA/SCI SCI,Neri;  Ferrara,1^ C IeFP,S,martedì
+214,2h00,Sc motorie,Fontana;  Ferretti,1^ A MAT,S,martedì
+215,1h00,A  ST/SO STO,Conti,2^ C IeFP,N,martedì,12h05
+216,1h00,Storia,Farina,5^ F MEC,N,martedì,12h05
+217,1h00,Lettere,Russo,1^ F MEC,N,martedì,12h05
+218,1h00,Ec. aziendale,Zanetti;  Romano,4^ B TUR,S,martedì
+219,1h00,LTE,Vitale;  Marino,5^ A MAT,S,martedì
+220,1h00,TMA,Colombo;  Marchetti,3^ A MAT,S,martedì
+221,1h00,Inglese,Parisi,2^ F MEC,N,martedì,12h05
+222,1h00,Inglese,Esposito;  De Luca,3^G AGR,S,martedì
+223,1h00,A LING ING,Sala;  Longo,3^ C IeFP,S,martedì
+224,1h00,Disposizione,Rossi,Disposizione,N,martedì,12h05
+225,1h00,TTRG,Bianchi;  Riva,1^ G AGR,N,martedì
+226,1h00,Storia,Farina,5^ D INF,N,martedì,13h00
+227,1h00,Sistemi,Martinelli;  Marchetti,3^ F MEC,S,martedì
+228,1h00,Spagnolo,Giordano,3^ B TUR,N,martedì,13h00
+229,1h00,Fisica,Gallo,1^ F MEC,N,martedì,13h00
+230,1h00,Tec inf,Barbieri,1^ D INF,N,martedì,13h00
+231,1h00,Storia,Ferrari,1^ G AGR,N,martedì,13h00
+232,1h00,Matematica,Messina,5^ B TUR,N,martedì,13h00
+233,1h00,TTRG,Bianchi;  Colombo,2^ A MAT,S,martedì
+234,1h00,Ec. aziendale,Zanetti,4^ B TUR,N,martedì,13h00
+235,1h00,Lettere,Ferrari;  Romano,4^ B TUR,S,mercoledì
+236,1h00,Inglese,Esposito,5^ B TUR,N,mercoledì,08h00
+237,1h00,STA,Lombardo,2^ F MEC,N,mercoledì,08h00
+238,1h00,Sc motorie,Moretti,1^ G AGR,N,mercoledì,08h00
+239,1h00,Matematica,Montanari,4^ F MEC,N,mercoledì,08h00
+240,1h00,Religione,Bianco,4^ D INF,N,mercoledì,08h00
+241,1h00,Dir ec pol,Rossi,2^ D INF,N,mercoledì,08h00
+242,2h00,LTE,Pellegrini;  Romano,2^ A MAT,S,mercoledì
+243,1h00,Geografia,Valentini,1^ D INF,N,mercoledì,08h00
+244,1h00,Dir ec pol,Ricci,1^ F MEC,N,mercoledì,08h00
+245,1h00,Sistemi,Martinelli;  Marchetti,3^ F MEC,S,mercoledì
+246,1h00,Lettere,Farina,5^ F MEC,N,mercoledì,08h00
+247,1h00,Storia,Ferretti;  Ferrari,1^ A MAT,S,mercoledì
+248,1h00,Inglese,Ferri,3^ B TUR,N,mercoledì,08h00
+249,1h00,Informatica,Molinari,5^ D INF,N,mercoledì,08h00
+250,2h00,LTE,Vitale;  Ricci,3^ A MAT,S,mercoledì
+251,2h00,Sistemi,Esposito;  Coppola,3^ D INF,S,mercoledì
+252,1h00,Inglese,Galli,2^G AGR,N,mercoledì,08h00
+253,1h00,Lettere,Conti,4^ A MAT,N,mercoledì,08h00
+254,2h00,A TE/PRO..,Rinaldi,1^ C IeFP,N,mercoledì,08h00
+255,2h00,A TE/PRO..,Leone;  Bellini,3^ C IeFP,S,mercoledì
+256,2h00,TTIM,Sala;  Bernardi;  Riva,5^ A MAT,S,mercoledì
+257,1h00,A TE/PRO FIS,Gallo,2^ C IeFP,N,mercoledì,08h00
+258,1h00,Estimo,De Luca;  Morelli,3^G AGR,S,mercoledì
+259,1h00,Disposizione,Rizzo,Disposizione,N,mercoledì,08h00
+260,1h00,TTRG,Bianchi;  Martinelli,2^ F MEC,S,mercoledì
+261,1h00,Tec mec,Lombardo,4^ F MEC,N,mercoledì,09h00
+262,1h00,Religione,Bianco,2^ D INF,N,mercoledì,09h00
+263,1h00,Dir leg tur,Bruno,5^ B TUR,N,mercoledì,09h00
+264,1h00,Geografia,Valentini;  Romano,4^ B TUR,S,mercoledì
+265,2h00,Lettere,Farina,5^ D INF,N,mercoledì,09h00
+266,1h00,Storia,Ferrari,3^ B TUR,N,mercoledì,09h00
+267,1h00,Inglese,Esposito,4^ D INF,N,mercoledì,09h00
+268,2h00,A LING ITA,Conti,2^ C IeFP,N,mercoledì,09h00
+269,1h00,Dir ec pol,Rossi;  Ferretti,1^ A MAT,S,mercoledì
+270,1h00,Scienze,Ferraro,2^G AGR,N,mercoledì,09h00
+271,1h00,TMA,Colombo;  Marchetti,4^ A MAT,S,mercoledì
+272,1h00,Inglese,Ferri,5^ F MEC,N,mercoledì,09h00
+273,1h00,Matematica,Ruggiero;  Montanari,1^ F MEC,S,mercoledì
+274,1h00,Meccanica,De Santis,3^ F MEC,N,mercoledì,09h00
+275,1h00,Dir ec pol,Ricci,1^ D INF,N,mercoledì,09h00
+276,1h00,Pr. Animali,Santoro;  Morelli,3^G AGR,S,mercoledì
+277,1h00,Disposizione,Parisi,Disposizione,N,mercoledì,09h00
+278,1h00,Disposizione,Galli,Disposizione,N,mercoledì,09h00
+279,1h00,Sc motorie,Moretti;  De Luca,1^ G AGR,S,mercoledì
+280,1h00,Storia,Ferrari,2^ D INF,N,mercoledì,10h00
+281,1h00,Sistemi,Esposito,4^ D INF,N,mercoledì,10h00
+282,1h00,Informatica,Molinari;  Russo,3^ D INF,N,mercoledì
+283,1h00,Inglese,Ferri,3^ F MEC,N,mercoledì,10h00
+284,3h00,Tec mec,Lombardo;  Leone,5^ F MEC,S,mercoledì
+285,1h00,Religione,Bianco,2^ F MEC,N,mercoledì,10h00
+286,1h00,Geografia,Valentini,5^ B TUR,N,mercoledì,10h00
+287,1h00,A TE/PRO FIS,Gallo,1^ C IeFP,N,mercoledì,10h00
+288,2h00,TTRG,Bianchi;  Ruggiero,2^G AGR,S,mercoledì
+289,1h00,Chimica,Ferraro;  De Luca,1^ G AGR,S,mercoledì
+290,1h00,Dir leg tur,Bruno,3^ B TUR,N,mercoledì,10h00
+291,2h00,LTE,Vitale,4^ A MAT,N,mercoledì,10h00
+292,2h00,LTE,Pellegrini;  Romano,1^ A MAT,S,mercoledì
+293,1h00,Inglese,Parisi,1^ F MEC,N,mercoledì,10h00
+294,1h00,Matematica,Caruso;  Romano,2^ A MAT,S,mercoledì
+295,1h00,Lettere,Serra,1^ D INF,N,mercoledì,10h00
+296,2h00,Sistemi,Martinelli;  Marchetti,4^ F MEC,S,mercoledì
+297,1h00,Storia,Ricci;  Gatti,3^ A MAT,S,mercoledì
+298,2h00,TMA,Colombo;  De Santis;  Riva,5^ A MAT,S,mercoledì
+299,2h00,Pr. Vegetali,Santoro;  Morelli,3^G AGR,S,mercoledì
+300,1h00,Tedesco,Lombardi,4^ B TUR,N,mercoledì,10h00
+301,1h00,A MA/SCI SCI,Bianchi;  Sala,3^ C IeFP,S,mercoledì
+302,1h00,Disposizione,Rossi,Disposizione,N,mercoledì,10h00
+303,2h00,A TE/PRO .,Rinaldi,2^ C IeFP,N,mercoledì,11h10
+304,1h00,Fisica,Gallo;  Bellini,2^ D INF,S,mercoledì
+305,1h00,Matematica,Bianchi,3^ F MEC,N,mercoledì,11h10
+306,1h00,Lettere,Ferrari;  Russo,3^ D INF,N,mercoledì
+307,2h00,Lettere,D'Angelo,4^ D INF,N,mercoledì,11h10
+308,1h00,Dir ec pol,Rossi,2^ F MEC,N,mercoledì,11h10
+309,1h00,Chimica,Ferraro,1^ F MEC,N,mercoledì,11h10
+310,1h00,Arte,Serra,3^ B TUR,N,mercoledì,11h10
+311,1h00,Dir leg tur,Bruno,4^ B TUR,N,mercoledì,11h10
+312,2h00,Lettere,Romano;  Rizzo,2^ A MAT,S,mercoledì
+313,1h00,A LING REL,Greco,3^ C IeFP,N,mercoledì,11h10
+314,2h00,Sistemi,Esposito;  Coppola,5^ D INF,S,mercoledì
+315,1h00,A LING ING,Parisi,1^ C IeFP,N,mercoledì,11h10
+316,1h00,Inglese,Galli;  Ferretti,1^ G AGR,S,mercoledì
+317,1h00,Storia,Farina,1^ D INF,N,mercoledì,11h10
+318,1h00,Lettere,Ricci;  Gatti,3^ A MAT,S,mercoledì
+319,1h00,Tedesco,Lombardi,5^ B TUR,N,mercoledì,11h10
+320,1h00,Disposizione,Ferri;  Valentini,Disposizione,S,mercoledì
+321,1h00,TTRG,Bianchi;  Colombo,2^ D INF,S,mercoledì
+322,1h00,Inglese,Ferri,4^ B TUR,N,mercoledì,12h05
+323,2h00,Sc motorie,Moretti,3^ D INF,N,mercoledì,12h05
+324,1h00,A LING REL,Greco,1^ C IeFP,N,mercoledì,12h05
+325,1h00,Arte,Serra,5^ B TUR,N,mercoledì,12h05
+326,1h00,Inglese,Galli,1^ D INF,N,mercoledì,12h05
+327,1h00,Lettere,Sala;  Conti,5^ A MAT,S,mercoledì
+328,1h00,Fisica,Gallo;  Riva,1^ G AGR,N,mercoledì
+329,1h00,Scienze,Ferraro,1^ F MEC,N,mercoledì,12h05
+330,1h00,Inglese,Parisi,4^ A MAT,N,mercoledì,12h05
+331,1h00,Matematica,Caruso;  Ferretti,1^ A MAT,S,mercoledì
+332,1h00,Matematica,Bianchi,2^ F MEC,N,mercoledì,12h05
+333,1h00,Dis prog,De Santis,3^ F MEC,N,mercoledì,12h05
+334,1h00,Meccanica,Marchetti,4^ F MEC,N,mercoledì,12h05
+335,1h00,A TE/PRO.,Bellini,3^ C IeFP,N,mercoledì,12h05
+336,1h00,Trasformazioni,Santoro;  Morelli,3^G AGR,S,mercoledì
+337,1h00,Disposizione,Ferrari,Disposizione,N,mercoledì,12h05
+338,1h00,Storia,Gatti,2^G AGR,N,mercoledì,12h05
+339,1h00,Tedesco,Lombardi,3^ B TUR,N,mercoledì,12h05
+340,1h00,TEEA,Marino,3^ A MAT,N,mercoledì,12h05
+341,1h00,Religione,Greco,5^ A MAT,N,mercoledì,13h00
+342,1h00,Lettere,D'Angelo,3^G AGR,N,mercoledì,13h00
+343,1h00,Arte,Serra,4^ B TUR,N,mercoledì,13h00
+344,1h00,Lettere,Gatti,3^ F MEC,N,mercoledì,13h00
+345,1h00,Storia,Rizzo,4^ F MEC,N,mercoledì,13h00
+346,1h00,Inglese,Galli,2^ D INF,N,mercoledì,13h00
+347,1h00,Chimica,Ferraro;  Santoro,2^G AGR,S,mercoledì
+348,1h00,Telecom,Marino,4^ D INF,N,mercoledì,13h00
+349,1h00,Inglese,Parisi,2^ F MEC,N,mercoledì,13h00
+350,1h00,Matematica,Caruso,3^ A MAT,N,mercoledì,13h00
+351,1h00,Lettere,Ferrari,1^ G AGR,N,mercoledì,13h00
+352,1h00,Meccanica,De Santis,5^ F MEC,N,mercoledì,13h00
+353,1h00,Matematica,Montanari,5^ D INF,N,giovedì,08h00
+354,1h00,Spagnolo,Giordano,4^ B TUR,N,giovedì,08h00
+355,2h00,A TE/PRO .,Rinaldi;  Mancini,1^ C IeFP,S,giovedì
+356,1h00,Tec inf,Costa;  Barbieri,1^ G AGR,S,giovedì
+357,1h00,Inglese,Esposito,5^ B TUR,N,giovedì,08h00
+358,2h00,Sc motorie,Moretti,2^ D INF,N,giovedì,08h00
+359,1h00,Religione,Bianco,1^ F MEC,N,giovedì,08h00
+360,1h00,Lettere,Ferrari;  Ferrara,3^ D INF,S,giovedì
+361,3h00,Dis prog,Martinelli;  Marchetti,4^ F MEC,S,giovedì
+362,1h00,A MA/SCI SCI,Neri,2^ C IeFP,N,giovedì,08h00
+363,1h00,Lettere,Russo,2^ F MEC,N,giovedì,08h00
+364,1h00,Lettere,Marino;  Conti;  Riva,5^ A MAT,S,giovedì
+365,1h00,A LING ITA,Farina,3^ C IeFP,N,giovedì,08h00
+366,1h00,TEEA,Marino;  Romano,3^ A MAT,S,giovedì
+367,1h00,Geografia,Valentini;  Romano,1^ A MAT,S,giovedì
+368,2h00,Sc motorie,Fontana,3^ F MEC,N,giovedì,08h00
+369,1h00,Dir ec pol,Rossi;  Ruggiero,2^G AGR,S,giovedì
+370,1h00,Scienze,Rossi;  Palumbo,2^ A MAT,N,giovedì
+371,1h00,Matematica,Sanna,4^ D INF,N,giovedì,08h00
+372,2h00,LTE,Vitale,4^ A MAT,N,giovedì,08h00
+373,1h00,Inglese,Ferri,5^ F MEC,N,giovedì,08h00
+374,1h00,Lettere,Serra,1^ D INF,N,giovedì,08h00
+375,1h00,Disposizione,D'Angelo,Disposizione,N,giovedì,08h00
+376,1h00,Matematica,Messina;  Ricci,3^ B TUR,S,giovedì
+377,1h00,Pr. Vegetali,Morelli,3^G AGR,N,giovedì,08h00
+378,1h00,Comp. mat.,Sanna;  Ferrara,3^ D INF,S,giovedì
+379,1h00,Storia,Ferrari;  Romano,4^ B TUR,S,giovedì
+380,1h00,Matematica,Messina,5^ B TUR,N,giovedì,09h00
+381,1h00,Tec mec,Lombardo,5^ F MEC,N,giovedì,09h00
+382,1h00,A  ST/SO STO,Conti,2^ C IeFP,N,giovedì,09h00
+383,1h00,Storia,Russo,1^ F MEC,N,giovedì,09h00
+384,1h00,Spagnolo,Giordano;  Ricci,3^ B TUR,S,giovedì
+385,1h00,Fisica,Gallo;  Ruggiero,2^G AGR,S,giovedì
+386,2h00,TTRG,Bianchi,1^ D INF,N,giovedì,09h00
+387,1h00,Scienze,Ferretti;  Neri,1^ A MAT,S,giovedì
+388,1h00,Matematica,Marino;  Montanari;  Riva,5^ A MAT,S,giovedì
+389,2h00,Telecom,Marino;  Martini,4^ D INF,S,giovedì
+390,1h00,Religione,Bianco,5^ D INF,N,giovedì,09h00
+391,1h00,Inglese,Romano;  Longo,2^ A MAT,S,giovedì
+392,1h00,Matematica,Bianchi,2^ F MEC,N,giovedì,09h00
+393,2h00,Lettere,Gatti;  Palumbo,3^ A MAT,N,giovedì
+394,1h00,A TE/PRO.,Bellini,3^ C IeFP,N,giovedì,09h00
+395,1h00,Disposizione,Rossi,Disposizione,N,giovedì,09h00
+396,1h00,Biot. Agrarie,Santoro;  Morelli,3^G AGR,S,giovedì
+397,1h00,Disposizione,Zanetti;  Ferri;  Valentini,Disposizione,S,giovedì
+398,1h00,Tec inf,Costa;  De Luca;  Barbieri,1^ G AGR,S,giovedì
+399,1h00,Storia,Russo,5^ B TUR,N,giovedì,10h00
+400,1h00,Matematica,Messina;  Romano,4^ B TUR,S,giovedì
+401,1h00,Inglese,Galli,3^ D INF,N,giovedì,10h00
+402,3h00,Tec mec,Lombardo;  Colombo,3^ F MEC,S,giovedì
+403,1h00,Chimica,Santoro;  Rossi,2^ D INF,S,giovedì
+404,1h00,Tec inf,Costa;  Barbieri,1^ A MAT,S,giovedì
+405,1h00,Lettere,D'Angelo,3^G AGR,N,giovedì,10h00
+406,1h00,Inglese,Esposito,5^ D INF,N,giovedì,10h00
+407,1h00,Lettere,Romano;  Rizzo,2^ A MAT,S,giovedì
+408,2h00,Sc motorie,Fontana,5^ F MEC,N,giovedì,10h00
+409,1h00,Scienze,Neri,2^ F MEC,N,giovedì,10h00
+410,1h00,Ec. aziendale,Ricci;  Basile,3^ B TUR,S,giovedì
+411,1h00,LTE,Vitale;  Riva,5^ A MAT,N,giovedì
+412,1h00,A LING ING,Longo,2^ C IeFP,N,giovedì,10h00
+413,1h00,Matematica,Ruggiero;  Montanari,1^ F MEC,S,giovedì
+414,1h00,Storia,Conti,4^ A MAT,N,giovedì,10h00
+415,1h00,A  ST/SO STO,Serra,1^ C IeFP,N,giovedì,10h00
+416,2h00,STA,Colombo,2^G AGR,N,giovedì,10h00
+417,1h00,Disposizione,Rossi,Disposizione,N,giovedì,10h00
+418,1h00,A MA/SCI SCI,Bianchi;  Sala,3^ C IeFP,S,giovedì
+419,1h00,Fisica,Gallo;  De Luca;  Bellini,1^ G AGR,S,giovedì
+420,1h00,Disposizione,Zanetti,Disposizione,N,giovedì,10h00
+421,1h00,Matematica,Sanna,1^ D INF,N,giovedì,11h10
+422,1h00,Matematica,Messina,4^ B TUR,N,giovedì,11h10
+423,1h00,Spagnolo,Giordano;  Silvestri,3^ B TUR,N,giovedì
+424,1h00,Comp. mat.,Montanari,4^ F MEC,N,giovedì,11h10
+425,1h00,Chimica,Santoro;  Neri,2^ F MEC,S,giovedì
+426,2h00,Telecom,Marino;  Martini,3^ D INF,S,giovedì
+427,1h00,Storia,Farina,5^ D INF,N,giovedì,11h10
+428,1h00,Dir ec pol,Rossi;  Riva,1^ G AGR,N,giovedì
+429,1h00,TMA,Marchetti,4^ A MAT,N,giovedì,11h10
+430,1h00,Inglese,Galli,2^ D INF,N,giovedì,11h10
+431,1h00,Storia,Sala;  Conti,5^ A MAT,S,giovedì
+432,1h00,Ec. aziendale,Zanetti,5^ B TUR,N,giovedì,11h10
+433,1h00,Fisica,Gallo;  Bellini,1^ F MEC,S,giovedì
+434,1h00,Geografia,Valentini;  Palumbo,2^ A MAT,N,giovedì
+435,2h00,Sc motorie,Moretti,4^ D INF,N,giovedì,11h10
+436,1h00,Inglese,Parisi;  Ricci,3^ A MAT,S,giovedì
+437,1h00,A MA/SCI MAT,Rossi;  Ferrara,1^ C IeFP,S,giovedì
+438,1h00,Matematica,Caruso;  Ferretti,1^ A MAT,S,giovedì
+439,2h00,A TE/PRO..,Rinaldi;  Mancini,2^ C IeFP,S,giovedì
+440,1h00,A LING ING,Longo,3^ C IeFP,N,giovedì,11h10
+441,1h00,Disposizione,Rizzo,Disposizione,N,giovedì,11h10
+442,1h00,Lettere,D'Angelo;  De Luca,3^G AGR,S,giovedì
+443,1h00,Matematica,Sanna,2^ D INF,N,giovedì,12h05
+444,1h00,TTRG,Bianchi;  Martinelli,1^ F MEC,S,giovedì
+445,1h00,Ec. aziendale,Zanetti,4^ B TUR,N,giovedì,12h05
+446,1h00,Spagnolo,Giordano,5^ B TUR,N,giovedì,12h05
+447,1h00,Fisica,Gallo;  Bellini,2^ F MEC,S,giovedì
+448,1h00,Matematica,Rossi,4^ A MAT,N,giovedì,12h05
+449,1h00,Geografia,Valentini;  Riva,1^ G AGR,N,giovedì
+450,1h00,Lettere,Rizzo,4^ F MEC,N,giovedì,12h05
+451,1h00,Chimica,Santoro;  Neri,1^ D INF,S,giovedì
+452,1h00,Inglese,Sala;  Parisi,5^ A MAT,S,giovedì
+453,1h00,A  ST/SO STO,Farina,3^ C IeFP,N,giovedì,12h05
+454,1h00,Matematica,Messina;  Silvestri,3^ B TUR,N,giovedì
+455,1h00,Matematica,Bianchi,5^ F MEC,N,giovedì,12h05
+456,1h00,LTE,Vitale,3^ A MAT,N,giovedì,12h05
+457,1h00,Inglese,Ferretti;  Longo,1^ A MAT,S,giovedì
+458,1h00,Matematica,Caruso;  Palumbo,2^ A MAT,N,giovedì
+459,1h00,A LING ITA,Serra;  Ferrara,1^ C IeFP,S,giovedì
+460,1h00,GPOI,Barbieri,5^ D INF,N,giovedì,12h05
+461,1h00,Lettere,Gatti,2^G AGR,N,giovedì,12h05
+462,1h00,Genio Rurale,De Luca;  Colombo,3^G AGR,S,giovedì
+463,1h00,Disposizione,Galli,Disposizione,N,giovedì,12h05
+464,1h00,Matematica,Sanna,1^ D INF,N,venerdì,08h00
+465,2h00,A TE/PRO..,Rinaldi,1^ C IeFP,N,venerdì,08h00
+466,1h00,Inglese,Esposito,5^ B TUR,N,venerdì,08h00
+467,1h00,Inglese,Ferri;  Romano,4^ B TUR,S,venerdì
+468,1h00,STA,Lombardo,2^ F MEC,N,venerdì,08h00
+469,1h00,Religione,Bianco,3^G AGR,N,venerdì,08h00
+470,1h00,Storia,Ferrari;  Ferrara,3^ D INF,S,venerdì
+471,1h00,Dir leg tur,Bruno,3^ B TUR,N,venerdì,08h00
+472,1h00,Dir ec pol,Ricci;  Ruggiero,1^ F MEC,S,venerdì
+473,1h00,Storia,D'Angelo,4^ D INF,N,venerdì,08h00
+474,2h00,Sc motorie,Fontana,4^ F MEC,N,venerdì,08h00
+475,1h00,TTRG,Bianchi;  Colombo,2^ A MAT,S,venerdì
+476,1h00,Scienze,Rossi,2^ D INF,N,venerdì,08h00
+477,1h00,LTE,Pellegrini;  Riva,1^ A MAT,N,venerdì
+478,1h00,Matematica,Sala;  Montanari,5^ A MAT,S,venerdì
+479,1h00,Matematica,Bianchi,5^ F MEC,N,venerdì,08h00
+480,1h00,TTIM,Bernardi,4^ A MAT,N,venerdì,08h00
+481,2h00,LTE,Vitale;  Romano,3^ A MAT,S,venerdì
+482,1h00,Storia,Ferrari,1^ G AGR,N,venerdì,08h00
+483,1h00,Sistemi,Marchetti,3^ F MEC,N,venerdì,08h00
+484,2h00,A TE/PRO.,Mancini,2^ C IeFP,N,venerdì,08h00
+485,2h00,A TE/PRO..,Leone;  Bellini,3^ C IeFP,S,venerdì
+486,2h00,TPSIT,Esposito;  Coppola,5^ D INF,S,venerdì
+487,1h00,Matematica,Mariani,2^G AGR,N,venerdì,08h00
+488,1h00,Disposizione,Valentini,Disposizione,N,venerdì,08h00
+489,1h00,Matematica,Sanna;  Ferrara,3^ D INF,S,venerdì
+490,2h00,Lettere,Ferrari,4^ B TUR,N,venerdì,09h00
+491,1h00,Storia,Ferrari,2^ D INF,N,venerdì,09h00
+492,2h00,TTRG,Bianchi,2^ F MEC,N,venerdì,09h00
+493,1h00,Tec mec,Lombardo,3^ F MEC,N,venerdì,09h00
+494,1h00,Religione,Bianco,5^ F MEC,N,venerdì,09h00
+495,1h00,Storia,D'Angelo;  De Luca,3^G AGR,S,venerdì
+496,1h00,Dir leg tur,Bruno,5^ B TUR,N,venerdì,09h00
+497,1h00,Geografia,Valentini;  Silvestri,3^ B TUR,N,venerdì
+498,1h00,Inglese,Esposito,4^ D INF,N,venerdì,09h00
+499,1h00,Dir ec pol,Rossi,2^ A MAT,N,venerdì,09h00
+500,1h00,TEEA,Bernardi;  Riva,5^ A MAT,N,venerdì
+501,1h00,Matematica,Mariani;  Ferretti,1^ G AGR,S,venerdì
+502,1h00,Inglese,Galli,2^G AGR,N,venerdì,09h00
+503,1h00,Matematica,Ruggiero;  Montanari,1^ F MEC,S,venerdì
+504,1h00,TMA,Colombo;  Marchetti,4^ A MAT,S,venerdì
+505,1h00,Dir ec pol,Ricci,1^ D INF,N,venerdì,09h00
+506,1h00,Disposizione,Rossi,Disposizione,N,venerdì,09h00
+507,1h00,Disposizione,Bianchi,Disposizione,N,venerdì,09h00
+508,1h00,LTE,Pellegrini;  Romano,1^ A MAT,S,venerdì
+509,1h00,Matematica,Sanna,2^ D INF,N,venerdì,10h00
+510,2h00,A TE/PRO..,Rinaldi,2^ C IeFP,N,venerdì,10h00
+511,3h00,Informatica,Molinari;  Costa,4^ D INF,S,venerdì
+512,1h00,Matematica,Bianchi,3^ F MEC,N,venerdì,10h00
+513,1h00,Matematica,Montanari,4^ F MEC,N,venerdì,10h00
+514,2h00,Sc motorie,Gentile;  Riva,5^ A MAT,N,venerdì
+515,1h00,Religione,Bianco,1^ D INF,N,venerdì,10h00
+516,3h00,Dis prog,Leone;  De Santis,5^ F MEC,S,venerdì
+517,1h00,Geografia,Valentini,5^ B TUR,N,venerdì,10h00
+518,1h00,Tec inf,Barbieri,1^ F MEC,N,venerdì,10h00
+519,1h00,Inglese,Galli;  Ferrara,3^ D INF,S,venerdì
+520,1h00,A LING ITA,Sala;  Farina,3^ C IeFP,S,venerdì
+521,2h00,Lettere,Ferretti;  Ferrari,1^ A MAT,S,venerdì
+522,1h00,Inglese,Ferri;  Silvestri,3^ B TUR,N,venerdì
+523,2h00,A LING ED. FIS,Fontana,1^ C IeFP,N,venerdì,10h00
+524,1h00,Chimica,Ferraro;  Ruggiero,2^G AGR,S,venerdì
+525,2h00,TTIM,Vitale;  Bernardi,4^ A MAT,S,venerdì
+526,1h00,TMA,Marchetti;  Romano,3^ A MAT,S,venerdì
+527,1h00,Sistemi,Esposito,5^ D INF,N,venerdì,10h00
+528,1h00,Inglese,Esposito,3^G AGR,N,venerdì,10h00
+529,1h00,Disposizione,Parisi,Disposizione,N,venerdì,10h00
+530,1h00,Scienze,Coppola;  Rossi,2^ A MAT,S,venerdì
+531,1h00,Matematica,Mariani;  De Luca,1^ G AGR,S,venerdì
+532,1h00,Lettere,Russo,5^ B TUR,N,venerdì,11h10
+533,1h00,Lettere,Ferrari;  Silvestri,3^ B TUR,N,venerdì
+534,2h00,STA,Barbieri,2^ D INF,N,venerdì,11h10
+535,1h00,Religione,Bianco,3^ D INF,N,venerdì,11h10
+536,1h00,Dir ec pol,Rossi,2^ F MEC,N,venerdì,11h10
+537,1h00,Dir leg tur,Bruno,4^ B TUR,N,venerdì,11h10
+538,1h00,Matematica,Montanari,5^ D INF,N,venerdì,11h10
+539,1h00,TTRG,Bianchi;  Colombo,2^G AGR,S,venerdì
+540,1h00,Scienze,Ferraro;  Ruggiero,1^ F MEC,S,venerdì
+541,1h00,LTE,Pellegrini,2^ A MAT,N,venerdì,11h10
+542,1h00,Inglese,Parisi;  Romano,3^ A MAT,S,venerdì
+543,1h00,Inglese,Galli;  De Luca,1^ G AGR,S,venerdì
+544,1h00,Storia,Farina,1^ D INF,N,venerdì,11h10
+545,1h00,Storia,Gatti,3^ F MEC,N,venerdì,11h10
+546,1h00,Dis prog,Marchetti,4^ F MEC,N,venerdì,11h10
+547,1h00,Disposizione,D'Angelo,Disposizione,N,venerdì,11h10
+548,1h00,A TE/PRO.,Sala;  Bellini,3^ C IeFP,S,venerdì
+549,1h00,Matematica,Mariani,3^G AGR,N,venerdì,11h10
+550,1h00,TTRG,Bianchi;  Colombo;  Riva,1^ G AGR,S,venerdì
+551,1h00,TPSIT,Esposito,3^ D INF,N,venerdì,12h05
+552,1h00,Inglese,Ferri,3^ F MEC,N,venerdì,12h05
+553,2h00,Sc motorie,Moretti,5^ B TUR,N,venerdì,12h05
+554,2h00,Sc motorie,Gentile,4^ A MAT,N,venerdì,12h05
+555,1h00,Religione,Bianco,3^ A MAT,N,venerdì,12h05
+556,1h00,Chimica,Ferraro,1^ F MEC,N,venerdì,12h05
+557,1h00,Lettere,Farina,5^ D INF,N,venerdì,12h05
+558,1h00,Storia,Russo,2^ F MEC,N,venerdì,12h05
+559,1h00,Inglese,Galli,1^ D INF,N,venerdì,12h05
+560,1h00,Scienze,Coppola;  Neri,1^ A MAT,S,venerdì
+561,1h00,Inglese,Sala;  Parisi,5^ A MAT,S,venerdì
+562,1h00,A ST/SO DIR,Rossi,3^ C IeFP,N,venerdì,12h05
+563,1h00,Matematica,Mariani;  De Luca,3^G AGR,S,venerdì
+564,1h00,A MA/SCI MAT,Rossi,2^ C IeFP,N,venerdì,12h05
+565,1h00,A TE/PRO.,Mancini,1^ C IeFP,N,venerdì,12h05
+566,1h00,Meccanica,Marchetti,4^ F MEC,N,venerdì,12h05
+567,1h00,Lettere,Gatti,2^G AGR,N,venerdì,12h05
+568,1h00,Tedesco,Lombardi,4^ B TUR,N,venerdì,12h05
+569,1h00,Disposizione,D'Angelo,Disposizione,N,venerdì,12h05
+570,1h00,LTE,Pellegrini;  Romano,2^ A MAT,S,venerdì
+571,1h00,Lettere,Ferrari,3^ B TUR,N,venerdì,12h05
+572,1h00,Inglese,Ferri,4^ F MEC,N,venerdì,13h00
+573,1h00,Storia,Farina,5^ F MEC,N,venerdì,13h00
+574,1h00,Lettere,Russo,1^ F MEC,N,venerdì,13h00
+575,1h00,Dir ec pol,Rossi;  Ferretti,1^ A MAT,S,venerdì
+576,1h00,Scienze,Neri,1^ D INF,N,venerdì,13h00
+577,1h00,Inglese,Parisi,2^ F MEC,N,venerdì,13h00
+578,1h00,Lettere,Gatti,3^ A MAT,N,venerdì,13h00
+579,1h00,Tedesco,Lombardi,3^ B TUR,N,venerdì,13h00
+580,1h00,Matematica,Sanna,3^ D INF,N,sabato,08h00
+581,2h00,Lettere,Russo,5^ B TUR,N,sabato,08h00
+582,2h00,Lettere,Ferrari,2^ D INF,N,sabato,08h00
+583,2h00,TPSIT,Esposito;  Coppola,4^ D INF,S,sabato
+584,1h00,Tec inf,Barbieri,1^ G AGR,N,sabato,08h00
+585,2h00,Sc motorie,Moretti,4^ B TUR,N,sabato,08h00
+586,1h00,Fisica,Gallo;  Bellini,2^G AGR,S,sabato
+587,1h00,Matematica,Rossi,4^ A MAT,N,sabato,08h00
+588,1h00,Religione,Bianco,3^ B TUR,N,sabato,08h00
+589,1h00,Meccanica,Martinelli;  Marchetti,4^ F MEC,S,sabato
+590,1h00,Geografia,Valentini,1^ F MEC,N,sabato,08h00
+591,2h00,Lettere,Farina,5^ F MEC,N,sabato,08h00
+592,1h00,Chimica,Neri,1^ D INF,N,sabato,08h00
+593,2h00,A LING ED. FIS,Gentile,2^ C IeFP,N,sabato,08h00
+594,2h00,Informatica,Molinari;  Costa,5^ D INF,S,sabato
+595,1h00,TEEA,Pellegrini;  Marino;  Romano,3^ A MAT,S,sabato
+596,1h00,TEEA,Bernardi;  Martini,5^ A MAT,S,sabato
+597,1h00,Inglese,Longo;  Riva,1^ A MAT,N,sabato
+598,1h00,Matematica,Caruso,2^ A MAT,N,sabato,08h00
+599,1h00,A  ST/SO STO,Serra,1^ C IeFP,N,sabato,08h00
+600,1h00,Meccanica,De Santis,3^ F MEC,N,sabato,08h00
+601,1h00,Matematica,Bianchi,2^ F MEC,N,sabato,08h00
+602,1h00,Biot. Agrarie,Morelli,3^G AGR,N,sabato,08h00
+603,2h00,A TE/PRO..,Leone,3^ C IeFP,N,sabato,08h00
+604,1h00,A TE/PRO..,Bellini,,N,sabato,09h00
+605,1h00,Disposizione,Rizzo,Disposizione,N,sabato,08h00
+606,1h00,Matematica,Sanna,1^ D INF,N,sabato,09h00
+607,1h00,Religione,Bianco,1^ A MAT,N,sabato,09h00
+608,1h00,Storia,Rizzo,4^ F MEC,N,sabato,09h00
+609,1h00,Storia,Sala;  Conti;  Riva,5^ A MAT,S,sabato
+610,1h00,Arte,Serra,3^ B TUR,N,sabato,09h00
+611,1h00,Fisica,Gallo;  Ruggiero,1^ F MEC,S,sabato
+612,1h00,Chimica,Neri,2^ F MEC,N,sabato,09h00
+613,1h00,Scienze,Ferraro,1^ G AGR,N,sabato,09h00
+614,1h00,TTIM,Pellegrini;  Bernardi;  Romano,3^ A MAT,S,sabato
+615,1h00,Telecom,Marino,3^ D INF,N,sabato,09h00
+616,1h00,Inglese,Longo,2^ A MAT,N,sabato,09h00
+617,1h00,Inglese,Parisi,4^ A MAT,N,sabato,09h00
+618,1h00,A MA/SCI MAT,Rossi;  Ferrara,1^ C IeFP,S,sabato
+619,1h00,Disposizione,Valentini;  Caruso,Disposizione,S,sabato
+620,1h00,Trasformazioni,Santoro;  Morelli,3^G AGR,S,sabato
+621,1h00,Lettere,Gatti,2^G AGR,N,sabato,09h00
+622,1h00,Sistemi,Martinelli;  Marchetti,3^ F MEC,S,sabato
+623,1h00,Disposizione,Zanetti,Disposizione,N,sabato,09h00
+624,1h00,Ec. aziendale,Zanetti,4^ B TUR,N,sabato,10h00
+625,1h00,TPSIT,Esposito;  Coppola,3^ D INF,S,sabato
+626,1h00,Fisica,Gallo;  Bellini,1^ D INF,S,sabato
+627,2h00,Sc motorie,Moretti,3^ B TUR,N,sabato,10h00
+628,1h00,Matematica,Bianchi,3^ F MEC,N,sabato,10h00
+629,1h00,Chimica,Ferraro;  Santoro,1^ G AGR,S,sabato
+630,1h00,Arte,Serra,5^ B TUR,N,sabato,10h00
+631,1h00,Sistemi,Martinelli;  De Santis,5^ F MEC,S,sabato
+632,1h00,A MA/SCI SCI,Neri;  Ferrara,1^ C IeFP,S,sabato
+633,1h00,Lettere,Rizzo,2^ A MAT,N,sabato,10h00
+634,1h00,A LING ITA,Conti,2^ C IeFP,N,sabato,10h00
+635,1h00,Lettere,Ferrari;  Riva,1^ A MAT,N,sabato
+636,2h00,Sc motorie,Fontana,2^ F MEC,N,sabato,10h00
+637,1h00,Chimica,Rossi,2^ D INF,N,sabato,10h00
+638,1h00,Matematica,Sala;  Montanari,5^ A MAT,S,sabato
+639,1h00,TEEA,Marino;  Martini,4^ A MAT,S,sabato
+640,1h00,Inglese,Parisi,1^ F MEC,N,sabato,10h00
+641,1h00,Matematica,Caruso;  Ricci,3^ A MAT,S,sabato
+642,1h00,Sistemi,Marchetti,4^ F MEC,N,sabato,10h00
+643,1h00,GPOI,Barbieri,5^ D INF,N,sabato,10h00
+644,1h00,Informatica,Molinari,4^ D INF,N,sabato,10h00
+645,1h00,Disposizione,Valentini,Disposizione,N,sabato,10h00
+646,1h00,A LING ING,Longo,3^ C IeFP,N,sabato,10h00
+647,2h00,Pr. Animali,Morelli,3^G AGR,N,sabato,10h00
+648,1h00,Lettere,Ruggiero;  Gatti,2^G AGR,S,sabato
+649,1h00,Sistemi,Esposito,5^ D INF,N,sabato,11h10
+650,2h00,Informatica,Molinari;  Ferrara,3^ D INF,S,sabato
+651,1h00,Fisica,Gallo,2^ D INF,N,sabato,11h10
+652,1h00,Matematica,Montanari,4^ F MEC,N,sabato,11h10
+653,1h00,Arte,Serra,4^ B TUR,N,sabato,11h10
+654,2h00,Lettere,Gatti,3^ F MEC,N,sabato,11h10
+655,2h00,Ec. aziendale,Zanetti,5^ B TUR,N,sabato,11h10
+656,2h00,Lettere,Russo;  Ruggiero,1^ F MEC,S,sabato
+657,1h00,STA,Colombo,2^G AGR,N,sabato,11h10
+658,1h00,Scienze,Coppola;  Rossi,2^ A MAT,S,sabato
+659,1h00,Matematica,Sanna,4^ D INF,N,sabato,11h10
+660,2h00,TTIM,Bernardi;  Martini,5^ A MAT,S,sabato
+661,2h00,Tec inf,Costa;  Barbieri,1^ D INF,S,sabato
+662,1h00,TMA,Colombo;  Marchetti;  Ricci,3^ A MAT,S,sabato
+663,1h00,A LING ING,Parisi,1^ C IeFP,N,sabato,11h10
+664,1h00,Matematica,Caruso;  Riva,1^ A MAT,N,sabato
+665,2h00,Lettere,Ferrari,1^ G AGR,N,sabato,11h10
+666,2h00,Lettere,Conti,4^ A MAT,N,sabato,11h10
+667,1h00,A TE/PRO.,Mancini,2^ C IeFP,N,sabato,11h10
+668,2h00,Meccanica,De Santis,5^ F MEC,N,sabato,11h10
+669,1h00,Disposizione,Bianchi,Disposizione,N,sabato,11h10
+670,1h00,A LING ITA,Sala;  Farina,3^ C IeFP,S,sabato
+671,1h00,Disposizione,Rizzo,Disposizione,N,sabato,11h10
+672,1h00,Matematica,Sanna,2^ D INF,N,sabato,12h05
+673,1h00,Sistemi,Esposito,4^ D INF,N,sabato,12h05
+674,1h00,Fisica,Gallo,2^ F MEC,N,sabato,12h05
+675,1h00,Religione,Bianco,2^ A MAT,N,sabato,12h05
+676,1h00,Geografia,Valentini,4^ B TUR,N,sabato,12h05
+677,1h00,Lettere,Rizzo,4^ F MEC,N,sabato,12h05
+678,1h00,Lettere,Farina,5^ D INF,N,sabato,12h05
+679,1h00,Scienze,Ferraro,2^G AGR,N,sabato,12h05
+680,1h00,Scienze,Neri;  Riva,1^ A MAT,N,sabato
+681,1h00,Ec. aziendale,Basile,3^ B TUR,N,sabato,12h05
+682,1h00,A MA/SCI MAT,Rossi,2^ C IeFP,N,sabato,12h05
+683,1h00,Disposizione,Parisi,Disposizione,N,sabato,12h05
+684,1h00,Genio Rurale,Colombo,3^G AGR,N,sabato,12h05
+685,1h00,A MA/SCI SCI,Bianchi;  Sala,3^ C IeFP,S,sabato
+686,1h00,A TE/PRO.,Mancini,1^ C IeFP,N,sabato,12h05
+687,1h00,TMA,Colombo;  Marchetti,3^ A MAT,S,sabato
