@@ -2,6 +2,8 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
 import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
 
 public class PrimoAvvio extends JFrame {
 
@@ -10,6 +12,13 @@ public class PrimoAvvio extends JFrame {
 
     public PrimoAvvio() {
         super("Primo Avvio - Seleziona un file");
+
+        try {
+            UIManager.setLookAndFeel(UIManager.getCrossPlatformLookAndFeelClassName());
+        } catch (Exception ex) {
+            System.err.println("Impossibile caricare il look and feel.");
+        }
+
 
         setLayout(new BorderLayout(15, 15));
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -47,6 +56,15 @@ public class PrimoAvvio extends JFrame {
         mainPanel.add(panel, BorderLayout.CENTER);
 
         add(mainPanel);
+        setVisible(true);
+    }
+
+    private void writeFile(String filePath) {
+        try(FileWriter writer = new FileWriter("src.txt", false)) {
+            writer.write("Contenuto del file");
+        } catch (IOException e) {
+            System.err.println("Errore durante la scrittura del file: " + e.getMessage());
+        }
     }
 
     private void scegliFile() {
@@ -60,20 +78,12 @@ public class PrimoAvvio extends JFrame {
                     "Hai selezionato:\n" + selectedFile.getName(),
                     "File selezionato",
                     JOptionPane.INFORMATION_MESSAGE);
+
+            writeFile(selectedFile.getAbsolutePath());
+            dispose();
         }
     }
 
-    public static void main(String[] args) {
-        try {
-            UIManager.setLookAndFeel(UIManager.getCrossPlatformLookAndFeelClassName());
-        } catch (Exception ex) {
-            System.err.println("Impossibile caricare il look and feel.");
-        }
-
-        SwingUtilities.invokeLater(() -> {
-            new PrimoAvvio().setVisible(true);
-        });
-    }
 }
 
 

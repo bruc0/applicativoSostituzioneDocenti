@@ -1,16 +1,16 @@
-import javax.imageio.IIOException;
 import java.io.*;
 /*
 * il lettore si occupa unicamente della lettura del file
 * */
-public class Lettore {
+public class LettoreCSV {
 
     private File src;
     private static final String CSV_DELIMITER = ",";
     private BufferedReader lettoreCsv;
 
 
-    public Lettore(File src) throws FileNotFoundException {
+
+    public LettoreCSV(File src) throws FileNotFoundException {
         this.src = src;
         lettoreCsv = new BufferedReader(new FileReader(src));
     }
@@ -21,5 +21,12 @@ public class Lettore {
         line = lettoreCsv.readLine();
         return line;
     }
+
+
+    public void close() throws IOException {
+        lettoreCsv.close();
+    }
+
+
 
 }

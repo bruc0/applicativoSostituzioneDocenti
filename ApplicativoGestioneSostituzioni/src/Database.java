@@ -7,11 +7,11 @@ public class Database {
 
 
     ArrayList<Docente> docenti;
-    Lettore lettore;
+    LettoreCSV lettoreCSV;
 
     public Database(File src) throws FileNotFoundException {
 
-        lettore = new Lettore(src);
+        lettoreCSV = new LettoreCSV(src);
 
     }
 
@@ -19,7 +19,7 @@ public class Database {
 
         String str;
         try {
-            if((str = lettore.leggiLinea()) != null){
+            if((str = lettoreCSV.leggiLinea()) != null){
 
                 // Salta l'intestazione del CSV
                 if(str.startsWith("NUMERO")) {

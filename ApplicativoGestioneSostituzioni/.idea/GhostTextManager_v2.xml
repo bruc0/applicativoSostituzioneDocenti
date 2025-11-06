@@ -27,6 +27,30 @@
             </GhostTextMetaData>
           </value>
         </entry>
+        <entry key="fai in modo che la funzione writeBoolean">
+          <value>
+            <GhostTextMetaData>
+              <option name="count" value="1.0" />
+              <option name="timestamps">
+                <list>
+                  <option value="1762422224005" />
+                </list>
+              </option>
+            </GhostTextMetaData>
+          </value>
+        </entry>
+        <entry key="fai in modo che la funzione writeBoolean scriva il boolean sul file binario src">
+          <value>
+            <GhostTextMetaData>
+              <option name="count" value="1.0" />
+              <option name="timestamps">
+                <list>
+                  <option value="1762422266405" />
+                </list>
+              </option>
+            </GhostTextMetaData>
+          </value>
+        </entry>
         <entry key="gli id devono essere numeri interi progressivi">
           <value>
             <GhostTextMetaData>
@@ -34,6 +58,30 @@
               <option name="timestamps">
                 <list>
                   <option value="1762272409140" />
+                </list>
+              </option>
+            </GhostTextMetaData>
+          </value>
+        </entry>
+        <entry key="implementa il metodo file not found in  modo che crei il file settings.dat e col metodo write boolean ci scriva false">
+          <value>
+            <GhostTextMetaData>
+              <option name="count" value="1.0" />
+              <option name="timestamps">
+                <list>
+                  <option value="1762422570075" />
+                </list>
+              </option>
+            </GhostTextMetaData>
+          </value>
+        </entry>
+        <entry key="in readPrimo accesso fai in modo che il file legga il boolean scritto in binario">
+          <value>
+            <GhostTextMetaData>
+              <option name="count" value="1.0" />
+              <option name="timestamps">
+                <list>
+                  <option value="1762423268924" />
                 </list>
               </option>
             </GhostTextMetaData>
@@ -51,6 +99,31 @@
             </GhostTextMetaData>
           </value>
         </entry>
+        <entry key="nel costruttore metti come src il file settings.dat">
+          <value>
+            <GhostTextMetaData>
+              <option name="count" value="2.0" />
+              <option name="timestamps">
+                <list>
+                  <option value="1762422684744" />
+                  <option value="1762422680784" />
+                </list>
+              </option>
+            </GhostTextMetaData>
+          </value>
+        </entry>
+        <entry key="nel costruttore metti come src il file settings.dat@">
+          <value>
+            <GhostTextMetaData>
+              <option name="count" value="1.0" />
+              <option name="timestamps">
+                <list>
+                  <option value="1762422877010" />
+                </list>
+              </option>
+            </GhostTextMetaData>
+          </value>
+        </entry>
         <entry key="nel file csv le virgole separano i valori  il punto e virgola separa unicamente i docenti tra di loro">
           <value>
             <GhostTextMetaData>
@@ -58,6 +131,30 @@
               <option name="timestamps">
                 <list>
                   <option value="1762274147273" />
+                </list>
+              </option>
+            </GhostTextMetaData>
+          </value>
+        </entry>
+        <entry key="nel metodo read primo accesso implementa la lettura di un boolean scritto in binario">
+          <value>
+            <GhostTextMetaData>
+              <option name="count" value="1.0" />
+              <option name="timestamps">
+                <list>
+                  <option value="1762424266045" />
+                </list>
+              </option>
+            </GhostTextMetaData>
+          </value>
+        </entry>
+        <entry key="nella classe interfaccia principale creea una interfaccia grafica con un menu sopra con ua combobox che viene riempito con un arraylist di cocenti e a fianco la scritta Docente stessa cosa per le classi poi a fianco un bottone per ricaricare la tabella e un bottone per cambiare il file sorgente, poi sotto ci sara una tabella dove verranno inserite le varie lezioni nell'arco dellla settimana, dal lunedi al venerdi dalle 8 alle 16. implementa unicamente questa in terfaccia non le funzionalita, crea però i metodi per riempire le combobox e la tabella che verranno però implementati in seguito">
+          <value>
+            <GhostTextMetaData>
+              <option name="count" value="1.0" />
+              <option name="timestamps">
+                <list>
+                  <option value="1762426129076" />
                 </list>
               </option>
             </GhostTextMetaData>
@@ -82,6 +179,18 @@
               <option name="timestamps">
                 <list>
                   <option value="1762272500266" />
+                </list>
+              </option>
+            </GhostTextMetaData>
+          </value>
+        </entry>
+        <entry key="rendilo piu bello, usando un tema scuro">
+          <value>
+            <GhostTextMetaData>
+              <option name="count" value="1.0" />
+              <option name="timestamps">
+                <list>
+                  <option value="1762426680192" />
                 </list>
               </option>
             </GhostTextMetaData>
