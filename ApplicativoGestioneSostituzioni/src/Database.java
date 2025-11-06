@@ -21,17 +21,19 @@ public class Database {
     public void letturaFile(){
         String str;
         ArrayList<Docente> docentiLezione = new ArrayList<>();
+
         try {
             if((str = lettoreCSV.leggiLinea()) != null) {
 
                 // Salta l'intestazione del CSV
                 if (str.startsWith("NUMERO")) {
-                    return;
+                    lettoreCSV.leggiLinea();
+                    lettoreCSV.leggiLinea();
                 }
-
+                System.out.println("Riga letta: " + str);
                 // Dividi la riga CSV usando il delimitatore ;
                 String[] campi = str.split(",");
-                String[] durataStr = campi[1].split("h");
+                String[] durataStr = campi[2].split("h");
                 String[] oraInizioStr = campi[7].split("h");
                 String[] docentiStr = campi[3].split(",");
 
@@ -92,5 +94,11 @@ public class Database {
         return false;
     }
 
+    public ArrayList<Docente> getDocenti() {
+        return docenti;
+    }
 
+    public ArrayList<String> getClassi() {
+        return classi;
+    }
 }

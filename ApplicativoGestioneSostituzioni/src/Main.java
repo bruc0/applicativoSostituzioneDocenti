@@ -26,15 +26,16 @@ public class Main {
                     public void windowClosed(java.awt.event.WindowEvent e) {
                         primoAvvio.dispose();
 
-                        startInterfacciaPrincipale();
                         startDatabase();
+                        startInterfacciaPrincipale();
                     }
                                              });
                 lettoreSistema.writePrimoAccesso(false);
 
             }else{
+                startDatabase();
                 startInterfacciaPrincipale();
-                startInterfacciaPrincipale();
+
             }
         } catch (IOException e) {
             System.err.println("Errore durante la lettura del file contattare l'amministratore di sistema: " + e.getMessage());

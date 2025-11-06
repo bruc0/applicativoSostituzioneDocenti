@@ -251,7 +251,7 @@ public class interfacciaPrincipale {
 
     public void popolaComboBoxClassi(ArrayList<String> classi) {
         comboBoxClassi.removeAllItems();
-        for (String classe : classi) {
+        for (String classe : database.getClassi()) {
             comboBoxClassi.addItem(classe);
         }
     }
