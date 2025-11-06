@@ -40,4 +40,9 @@ public class Ora {
     public int[] getDurata() {
         return durata;
     }
+
+    public boolean sovrapposizioneOra(Ora ora) {
+        return (this.oraInizio[0] <= ora.oraInizio[0] && this.oraInizio[0] + this.durata[0] > ora.oraInizio[0]) ||
+                (this.oraInizio[0] < ora.oraInizio[0] && this.oraInizio[0] + this.durata[0] >= ora.oraInizio[0] + ora.durata[0]);
+    }
 }

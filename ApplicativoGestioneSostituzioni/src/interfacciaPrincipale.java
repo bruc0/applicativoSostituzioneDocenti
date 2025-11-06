@@ -258,8 +258,7 @@ public class interfacciaPrincipale {
 
     // Metodo per popolare la tabella (stub - implementazione futura)
     public void popolaTabellaLezioni() {
-        // Implementazione futura per popolare la tabella con i dati delle lezioni
-        // Dovrà gestire l'inserimento delle lezioni per ogni giorno e ora
+
     }
 
     // Getter per i componenti (utili per будущих implementazioni)

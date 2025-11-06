@@ -7,7 +7,10 @@ public class Database {
 
 
     ArrayList<Docente> docenti;
+    ArrayList<String> classi;
     LettoreCSV lettoreCSV;
+    Ora[] ore={new Ora(8, 0, 1, 0), new Ora(9, 0, 1, 0), new Ora(10, 0, 1, 0), new Ora(11, 10, 1, 0), new Ora(12, 0, 1, 0), new Ora(13, 0, 1, 0), new Ora(14, 0, 1, 0)};
+
 
     public Database(File src) throws FileNotFoundException {
 
@@ -16,13 +19,13 @@ public class Database {
     }
 
     public void letturaFile(){
-
         String str;
+        ArrayList<Docente> docentiLezione = new ArrayList<>();
         try {
-            if((str = lettoreCSV.leggiLinea()) != null){
+            if((str = lettoreCSV.leggiLinea()) != null) {
 
                 // Salta l'intestazione del CSV
-                if(str.startsWith("NUMERO")) {
+                if (str.startsWith("NUMERO")) {
                     return;
                 }
 
@@ -30,8 +33,10 @@ public class Database {
                 String[] campi = str.split(",");
                 String[] durataStr = campi[1].split("h");
                 String[] oraInizioStr = campi[7].split("h");
-                String[] docentiStr = campi[3].split("");
-                if(campi.length >= 8) {
+                String[] docentiStr = campi[3].split(",");
+
+
+                if (campi.length >= 8) {
 
                     int id = Integer.parseInt(campi[0]);
                     Ora ora = new Ora(Integer.parseInt(oraInizioStr[0]), Integer.parseInt(oraInizioStr[1]), Integer.parseInt(durataStr[0]), Integer.parseInt(durataStr[1]));
@@ -40,6 +45,33 @@ public class Database {
                     String giorno = campi[6];
                     ArrayList<Docente> docenti = new ArrayList<>();
 
+
+                    for (int i = 0; i < docentiStr.length; i++) {
+                        Docente doc = new Docente(docentiStr[i]);
+                        docentiLezione.add(doc);
+                        doc.aggiungiOraInsegnamento(new OraScolastica(ora, giorno));
+                        if(materia.equals("Disposizione")) {
+                           doc.aggiungiOraDisposizione(new OraScolastica(ora, giorno));
+                        }else{
+                            doc.aggiungiMateriaDiInsegnamento(materia);
+
+                        }
+
+                        doc.aggiungiClasseInsegnata(classe);
+
+                    }
+
+                    for (Docente d : docenti) {
+
+                        if (!docentiLezione.contains(d)) {
+                            d.aggiungiOraLibera(new OraScolastica(ora, giorno));
+                        }
+
+                    }
+
+                    if(classi.contains(classe)) {
+                        classi.add(classe);
+                    }
 
                 }
             }
@@ -50,5 +82,15 @@ public class Database {
         }
 
     }
+
+    private boolean checkDocente(String docente) {
+        for (Docente d : docenti) {
+            if (d.getNome().equals(docente)) {
+                return true;
+            }
+        }
+        return false;
+    }
+
 
 }

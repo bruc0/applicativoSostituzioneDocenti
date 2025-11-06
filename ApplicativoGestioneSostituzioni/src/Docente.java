@@ -11,9 +11,9 @@ public class Docente {
     private String nome;
     private ArrayList<String> classiInsegnate;
     private ArrayList<String> materieDiInsegnamento;
-    private ArrayList<Ora> oreInsegnamento;
-    private ArrayList<Ora> oreLibere;
-    private ArrayList<Ora> oreDisposizione;
+    private ArrayList<OraScolastica> oreInsegnamento;
+    private ArrayList<OraScolastica> oreLibere;
+    private ArrayList<OraScolastica> oreDisposizione;
 
 
     public Docente(String nome) {
@@ -37,19 +37,19 @@ public class Docente {
         }
     }
 
-    public void aggiungiOraInsegnamento(Ora ora) {
+    public void aggiungiOraInsegnamento(OraScolastica ora) {
         if (!oreInsegnamento.contains(ora)) {
             oreInsegnamento.add(ora);
         }
     }
 
-    public void aggiungiOraLibera(Ora ora) {
+    public void aggiungiOraLibera(OraScolastica ora) {
         if (!oreLibere.contains(ora)) {
             oreLibere.add(ora);
         }
     }
 
-    public void aggiungiOraDisposizione(Ora ora) {
+    public void aggiungiOraDisposizione(OraScolastica ora) {
         if (!oreDisposizione.contains(ora)) {
             oreDisposizione.add(ora);
         }
@@ -65,5 +65,7 @@ public class Docente {
         return Objects.equals(nome, docente.nome);
     }
 
-
+    public String getNome() {
+        return nome;
+    }
 }

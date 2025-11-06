@@ -61,7 +61,7 @@ public class PrimoAvvio extends JFrame {
 
     private void writeFile(String filePath) {
         try(FileWriter writer = new FileWriter("src.txt", false)) {
-            writer.write("Contenuto del file");
+            writer.write(filePath);
         } catch (IOException e) {
             System.err.println("Errore durante la scrittura del file: " + e.getMessage());
         }
@@ -79,7 +79,7 @@ public class PrimoAvvio extends JFrame {
                     "File selezionato",
                     JOptionPane.INFORMATION_MESSAGE);
 
-            writeFile(selectedFile.getAbsolutePath());
+            writeFile(selectedFile.getPath());
             dispose();
         }
     }
