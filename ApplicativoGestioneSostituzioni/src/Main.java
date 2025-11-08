@@ -14,7 +14,7 @@ public class Main {
     public static void main(String[] args) throws IOException {
 
         lettoreSistema = new LettoreSistema();
-       lettoreSistema.writePrimoAccesso(true);
+        lettoreSistema.writePrimoAccesso(false);
 
 
 
@@ -48,7 +48,11 @@ public class Main {
     }
 
     private static void startInterfacciaPrincipale() {
-        new interfacciaPrincipale();
+        interfacciaPrincipale interfacciaPrincipale = new interfacciaPrincipale();
+        interfacciaPrincipale.setDatabase(database);
+        interfacciaPrincipale.popolaComboBoxClassi(database.getClassi());
+        interfacciaPrincipale.popolaComboBoxDocenti(database.getStrDocenti());
+
     }
 
     private static void startDatabase(){

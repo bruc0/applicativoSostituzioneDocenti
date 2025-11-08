@@ -15,67 +15,81 @@ public class Database {
     public Database(File src) throws FileNotFoundException {
 
         lettoreCSV = new LettoreCSV(src);
+        docenti = new ArrayList<>();
+        classi = new ArrayList<>();
 
     }
 
     public void letturaFile(){
-        String str;
+        String[] campi ;
         ArrayList<Docente> docentiLezione = new ArrayList<>();
 
+
         try {
-            if((str = lettoreCSV.leggiLinea()) != null) {
+            while ((campi = lettoreCSV.leggiLinea()) != null ) {
 
                 // Salta l'intestazione del CSV
-                if (str.startsWith("NUMERO")) {
-                    lettoreCSV.leggiLinea();
-                    lettoreCSV.leggiLinea();
-                }
-                System.out.println("Riga letta: " + str);
-                // Dividi la riga CSV usando il delimitatore ;
-                String[] campi = str.split(",");
-                String[] durataStr = campi[2].split("h");
-                String[] oraInizioStr = campi[7].split("h");
-                String[] docentiStr = campi[3].split(",");
+             if (!campi[0].equals("NUMERO")){
 
 
-                if (campi.length >= 8) {
+                 System.out.println(campi.length);
+                 for (String campiStr : campi) {
+                     System.out.println(campiStr);
+                 }
+                 String[] idstr = campi[0].split("\\.");
+                 System.out.println(idstr[0]);
+                 String[] durataStr = campi[1].split("h");
+                 String[] oraInizioStr = campi[7].split("h");
+                 String[] docentiStr = campi[3].split(";");
 
-                    int id = Integer.parseInt(campi[0]);
-                    Ora ora = new Ora(Integer.parseInt(oraInizioStr[0]), Integer.parseInt(oraInizioStr[1]), Integer.parseInt(durataStr[0]), Integer.parseInt(durataStr[1]));
-                    String materia = campi[2];
-                    String classe = campi[4];
-                    String giorno = campi[6];
-                    ArrayList<Docente> docenti = new ArrayList<>();
+                 for (String campiStr : campi) {
+                     System.out.println(campiStr);
+                 }
+
+                 if (campi.length >= 8) {
+
+                     int id = Integer.parseInt(idstr[0]);
+                     Ora ora = new Ora(Integer.parseInt(oraInizioStr[0]), Integer.parseInt(oraInizioStr[1]), Integer.parseInt(durataStr[0]), Integer.parseInt(durataStr[1]));
+                     String materia = campi[2];
+                     String classe = campi[4];
+                     String giorno = campi[6];
 
 
-                    for (int i = 0; i < docentiStr.length; i++) {
-                        Docente doc = new Docente(docentiStr[i]);
-                        docentiLezione.add(doc);
-                        doc.aggiungiOraInsegnamento(new OraScolastica(ora, giorno));
-                        if(materia.equals("Disposizione")) {
-                           doc.aggiungiOraDisposizione(new OraScolastica(ora, giorno));
-                        }else{
-                            doc.aggiungiMateriaDiInsegnamento(materia);
 
-                        }
+                     for (int i = 0; i < docentiStr.length; i++) {
+                         Docente doc = new Docente(docentiStr[i]);
+                         docentiLezione.add(doc);
+                         if (!checkDocente(doc.getNome()))
+                         this.docenti.add(doc);
+                         doc.aggiungiOraInsegnamento(new OraScolastica(ora, giorno));
+                         if (materia.equals("Disposizione")) {
+                             doc.aggiungiOraDisposizione(new OraScolastica(ora, giorno));
+                         } else {
+                             doc.aggiungiMateriaDiInsegnamento(materia);
 
-                        doc.aggiungiClasseInsegnata(classe);
+                         }
 
-                    }
+                         doc.aggiungiClasseInsegnata(classe);
 
-                    for (Docente d : docenti) {
+                     }
 
-                        if (!docentiLezione.contains(d)) {
-                            d.aggiungiOraLibera(new OraScolastica(ora, giorno));
-                        }
+                     for (Docente d : docenti) {
 
-                    }
+                         if (!docentiLezione.contains(d)) {
+                             d.aggiungiOraLibera(new OraScolastica(ora, giorno));
+                         }
 
-                    if(classi.contains(classe)) {
-                        classi.add(classe);
-                    }
+                     }
 
-                }
+                     if (!this.classi.contains(classe)) {
+                         this.classi.add(classe);
+                     }
+
+                 }
+             }
+
+             campi=null;
+
             }
         }catch (IOException ex){
             System.err.println("Errore durante la lettura del file: " + ex.getMessage());
@@ -96,6 +110,15 @@ public class Database {
 
     public ArrayList<Docente> getDocenti() {
         return docenti;
+    }
+    public ArrayList<String> getStrDocenti() {
+
+        ArrayList<String> strDocenti = new ArrayList<>();
+        for (Docente docente : docenti) {
+            strDocenti.add(docente.getNome());
+        }
+        return strDocenti;
+
     }
 
     public ArrayList<String> getClassi() {

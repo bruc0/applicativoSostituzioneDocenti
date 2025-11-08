@@ -15,11 +15,14 @@ public class LettoreCSV {
         lettoreCsv = new BufferedReader(new FileReader(src));
     }
 
-    public String leggiLinea() throws IOException {
+    public String[] leggiLinea() throws IOException {
 
-        String line;
+        String line = null;
+        String[] campi = null;
         line = lettoreCsv.readLine();
-        return line;
+        if(line != null)
+            campi = line.split(CSV_DELIMITER);
+        return campi;
     }
 
 
