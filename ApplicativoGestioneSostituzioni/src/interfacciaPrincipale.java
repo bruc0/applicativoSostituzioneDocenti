@@ -137,6 +137,18 @@ public class interfacciaPrincipale {
         });
         pannelloMenu.add(btnAssenze);
 
+        // Spazio tra i bottoni
+        pannelloMenu.add(Box.createHorizontalStrut(10));
+
+        // Bottone Esporta con tema scuro
+        JButton btnEsporta = new JButton("Esporta CSV");
+        btnEsporta.setPreferredSize(new Dimension(120, 30));
+        stileBottone(btnEsporta, new Color(255, 140, 0)); // Dark Orange
+        btnEsporta.addActionListener(e -> {
+           // database.esportaCSV();
+        });
+        pannelloMenu.add(btnEsporta);
+
         // Aggiunta del menu al frame
         pannelloPrincipale.add(pannelloMenu, BorderLayout.NORTH);
 

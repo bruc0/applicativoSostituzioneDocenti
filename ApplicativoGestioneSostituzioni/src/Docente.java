@@ -68,4 +68,24 @@ public class Docente {
     public String getNome() {
         return nome;
     }
+
+    public ArrayList<String> getClassiInsegnate() {
+        return classiInsegnate;
+    }
+
+    public ArrayList<String> getMaterieDiInsegnamento() {
+        return materieDiInsegnamento;
+    }
+
+    public ArrayList<OraScolastica> getOreInsegnamento() {
+        return oreInsegnamento;
+    }
+
+    public ArrayList<OraScolastica> getOreLibere() {
+        return oreLibere;
+    }
+
+    public ArrayList<OraScolastica> getOreDisposizione() {
+        return oreDisposizione;
+    }
 }

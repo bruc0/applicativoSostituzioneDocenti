@@ -104,6 +104,19 @@
             </GhostTextMetaData>
           </value>
         </entry>
+        <entry key="crea una bottone esporta nel menu che scrive su un nuovofile csv le lezioni">
+          <value>
+            <GhostTextMetaData>
+              <option name="count" value="2.0" />
+              <option name="timestamps">
+                <list>
+                  <option value="1762714813806" />
+                  <option value="1762714813090" />
+                </list>
+              </option>
+            </GhostTextMetaData>
+          </value>
+        </entry>
         <entry key="crea una gui che ti faccia selezionare un file csv">
           <value>
             <GhostTextMetaData>
@@ -280,6 +293,18 @@
               <option name="timestamps">
                 <list>
                   <option value="1762710154967" />
+                </list>
+              </option>
+            </GhostTextMetaData>
+          </value>
+        </entry>
+        <entry key="in database implementa un metodo che gestisca le sostituzioni dei docenti">
+          <value>
+            <GhostTextMetaData>
+              <option name="count" value="1.0" />
+              <option name="timestamps">
+                <list>
+                  <option value="1762711932986" />
                 </list>
               </option>
             </GhostTextMetaData>
@@ -510,6 +535,18 @@
               <option name="timestamps">
                 <list>
                   <option value="1762274328365" />
+                </list>
+              </option>
+            </GhostTextMetaData>
+          </value>
+        </entry>
+        <entry key="scusamiho dei criteri ben specifici Compresenza&#10;Se il docente assente è in compresenza, sostituto = collega presente.&#10;Disponibilità da disposizioni&#10;Cercare nei docenti liberi in quell’ora:&#10;Docente della stessa classe&#10;Docente di materia affine&#10;Qualsiasi altro docente libero&#10;&#10;Compresenze non quinte&#10;Prima docenti della classe o affini.&#10;Poi altri docenti non delle quinte.&#10;Compresenze quinte&#10;Prima materia affine.&#10;Poi qualsiasi materia.&#10;Ore libere a pagamento&#10;Se ancora irrisolto, cercare docenti liberi in quell’ora.&#10;Priorità a chi ha lezione nell’ora precedente o successiva.">
+          <value>
+            <GhostTextMetaData>
+              <option name="count" value="1.0" />
+              <option name="timestamps">
+                <list>
+                  <option value="1762714190684" />
                 </list>
               </option>
             </GhostTextMetaData>

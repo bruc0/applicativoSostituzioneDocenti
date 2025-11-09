@@ -103,6 +103,8 @@ public class GestioneAssenzaDocenti extends JFrame {
             @Override
             public void actionPerformed(ActionEvent e) {
                 confermaAssenze();
+                database.setAssenzeDocenti(assenzeDocenti);
+                database.Sostituzione();
             }
         });
 
@@ -383,7 +385,7 @@ public class GestioneAssenzaDocenti extends JFrame {
                 riepilogo.append("\n");
             }
 
-            database.setAssenzeDocenti(assenzeDocenti);
+
         }
 
         int risposta = JOptionPane.showConfirmDialog(this,
