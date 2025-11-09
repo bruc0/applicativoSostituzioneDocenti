@@ -119,7 +119,23 @@ public class interfacciaPrincipale {
         btnCambiaFileSorgente = new JButton("Cambia File Sorgente");
         btnCambiaFileSorgente.setPreferredSize(new Dimension(180, 30));
         stileBottone(btnCambiaFileSorgente, new Color(34, 139, 34)); // Forest Green
+        btnCambiaFileSorgente.addActionListener(e -> {
+            SelezioneFileCsv selezioneFileCsv = new SelezioneFileCsv();
+                });
         pannelloMenu.add(btnCambiaFileSorgente);
+
+        // Spazio tra i bottoni
+        pannelloMenu.add(Box.createHorizontalStrut(10));
+
+        // Bottone Assenze con tema scuro
+        JButton btnAssenze = new JButton("Assenze");
+        btnAssenze.setPreferredSize(new Dimension(120, 30));
+        stileBottone(btnAssenze, new Color(220, 20, 60)); // Crimson
+        btnAssenze.addActionListener(e -> {
+            GestioneAssenzaDocenti gestioneAssenze = new GestioneAssenzaDocenti(database);
+            gestioneAssenze.setVisible(true);
+        });
+        pannelloMenu.add(btnAssenze);
 
         // Aggiunta del menu al frame
         pannelloPrincipale.add(pannelloMenu, BorderLayout.NORTH);

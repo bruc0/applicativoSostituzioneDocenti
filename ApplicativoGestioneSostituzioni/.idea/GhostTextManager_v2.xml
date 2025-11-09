@@ -56,6 +56,18 @@
             </GhostTextMetaData>
           </value>
         </entry>
+        <entry key="aggiungi nel menu dell' interfaccia principale un bottone assenze">
+          <value>
+            <GhostTextMetaData>
+              <option name="count" value="1.0" />
+              <option name="timestamps">
+                <list>
+                  <option value="1762710435048" />
+                </list>
+              </option>
+            </GhostTextMetaData>
+          </value>
+        </entry>
         <entry key="alla linea 23 fai in modo di stanziare le lezioni tramite le informazioni in str">
           <value>
             <GhostTextMetaData>
@@ -87,6 +99,18 @@
               <option name="timestamps">
                 <list>
                   <option value="1762615649316" />
+                </list>
+              </option>
+            </GhostTextMetaData>
+          </value>
+        </entry>
+        <entry key="crea una gui che ti faccia selezionare un file csv">
+          <value>
+            <GhostTextMetaData>
+              <option name="count" value="1.0" />
+              <option name="timestamps">
+                <list>
+                  <option value="1762709309902" />
                 </list>
               </option>
             </GhostTextMetaData>
@@ -147,6 +171,18 @@
               <option name="timestamps">
                 <list>
                   <option value="1762422266405" />
+                </list>
+              </option>
+            </GhostTextMetaData>
+          </value>
+        </entry>
+        <entry key="fai in modo che posso inserire nelle assenze che un docente è assente tutto il giorno oppure per un range di ore">
+          <value>
+            <GhostTextMetaData>
+              <option name="count" value="1.0" />
+              <option name="timestamps">
+                <list>
+                  <option value="1762710631563" />
                 </list>
               </option>
             </GhostTextMetaData>
@@ -232,6 +268,18 @@
               <option name="timestamps">
                 <list>
                   <option value="1762422570075" />
+                </list>
+              </option>
+            </GhostTextMetaData>
+          </value>
+        </entry>
+        <entry key="implementa una Gui che faccia vedere tutti i docenti e faccia impostare le ore e i giorni che sono assenti">
+          <value>
+            <GhostTextMetaData>
+              <option name="count" value="1.0" />
+              <option name="timestamps">
+                <list>
+                  <option value="1762710154967" />
                 </list>
               </option>
             </GhostTextMetaData>

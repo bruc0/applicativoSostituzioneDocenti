@@ -2,6 +2,7 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.HashMap;
 
 public class Database {
 
@@ -10,8 +11,9 @@ public class Database {
     ArrayList<String> classi;
     LettoreCSV lettoreCSV;
     ArrayList<Lezione> lezioni;
+    HashMap<String, ArrayList<OraScolastica>> assenzeDocenti = new HashMap<>();
     Ora[] ore={new Ora(8, 0, 1, 0), new Ora(9, 0, 1, 0), new Ora(10, 0, 1, 0), new Ora(11, 10, 1, 0), new Ora(12, 0, 1, 0), new Ora(13, 0, 1, 0), new Ora(14, 0, 1, 0)};
-
+    ArrayList<Lezione> lezioneDaSostituire = new ArrayList<>();
 
     public Database(File src) throws FileNotFoundException {
 
@@ -121,6 +123,15 @@ public class Database {
 
     }
 
+    public Docente getDocente(String nome){
+        for (Docente docente : docenti) {
+            if (docente.getNome().equals(nome)) {
+                return docente;
+            }
+        }
+        return null;
+    }
+
     public Lezione getLezione(Ora ora){
         for (Lezione lezione : lezioni) {
 
@@ -136,4 +147,17 @@ public class Database {
     public ArrayList<String> getClassi() {
         return classi;
     }
+
+    public void setAssenzeDocenti(HashMap<String, ArrayList<OraScolastica>> assenzeDocenti) {
+        this.assenzeDocenti = assenzeDocenti;
+    }
+
+    public void Sostituzione(){
+
+
+
+    }
+
+
+
 }
