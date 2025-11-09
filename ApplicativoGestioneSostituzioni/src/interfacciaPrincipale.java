@@ -70,6 +70,23 @@ public class interfacciaPrincipale {
         stileComboBox(comboBoxClassi);
         pannelloMenu.add(comboBoxClassi);
 
+        // Aggiungi listener per gestire la selezione esclusiva tra docente e classe
+        comboBoxDocenti.addActionListener(e -> {
+            if (comboBoxDocenti.getSelectedIndex() > 0) {
+                // Se viene selezionato un docente, resetta la selezione della classe e aggiorna la tabella
+                comboBoxClassi.setSelectedIndex(0);
+
+            }
+        });
+
+        comboBoxClassi.addActionListener(e -> {
+            if (comboBoxClassi.getSelectedIndex() > 0) {
+                // Se viene selezionata una classe, resetta la selezione del docente e aggiorna la tabella
+                comboBoxDocenti.setSelectedIndex(0);
+
+            }
+        });
+
         // Spazio tra le sezioni
         pannelloMenu.add(Box.createHorizontalStrut(30));
 
@@ -77,6 +94,22 @@ public class interfacciaPrincipale {
         btnRicaricaTabella = new JButton("Ricarica Tabella");
         btnRicaricaTabella.setPreferredSize(new Dimension(150, 30));
         stileBottone(btnRicaricaTabella, new Color(70, 130, 180)); // Steel Blue
+        btnRicaricaTabella.addActionListener(e -> {
+
+            if(comboBoxDocenti.getSelectedIndex() == 0 && comboBoxClassi.getSelectedIndex() == 0) {
+                // Nessuna selezione: mostra messaggio di errore
+                JOptionPane.showMessageDialog(frame,
+                    "Selezionare un docente o una classe!",
+                    "Attenzione",
+                    JOptionPane.WARNING_MESSAGE);
+            } else if (comboBoxClassi.getSelectedIndex() > 0) {
+                // Classe selezionata: popola tabella per classe
+                popolaTabellaClasse(comboBoxClassi.getItemAt(comboBoxClassi.getSelectedIndex()));
+            } else {
+                // Docente selezionato: popola tabella per docente
+                popolaTabellaDocente(comboBoxDocenti.getItemAt(comboBoxDocenti.getSelectedIndex()));
+            }
+        });
         pannelloMenu.add(btnRicaricaTabella);
 
         // Spazio tra i bottoni
@@ -244,6 +277,8 @@ public class interfacciaPrincipale {
     // Metodi per riempire le combobox (stub - implementazione futura)
     public void popolaComboBoxDocenti(ArrayList<String> docenti) {
         comboBoxDocenti.removeAllItems();
+        comboBoxDocenti.addItem("-- Seleziona Docente --");
+        docenti.sort(String::compareToIgnoreCase);
         for (String docente : docenti) {
             comboBoxDocenti.addItem(docente);
         }
@@ -251,14 +286,217 @@ public class interfacciaPrincipale {
 
     public void popolaComboBoxClassi(ArrayList<String> classi) {
         comboBoxClassi.removeAllItems();
+        comboBoxClassi.addItem("-- Seleziona Classe --");
+        classi.sort(String::compareToIgnoreCase);
         for (String classe : database.getClassi()) {
             comboBoxClassi.addItem(classe);
         }
     }
 
-    // Metodo per popolare la tabella (stub - implementazione futura)
+    // Metodo per popolare la tabella con tutte le lezioni
     public void popolaTabellaLezioni() {
+        // Ottieni il modello della tabella
+        DefaultTableModel model = (DefaultTableModel) tabellaLezioni.getModel();
 
+        // Array dei giorni della settimana (corrispondono alle colonne 1-5)
+        String[] giorni = {"Lunedì", "Martedì", "Mercoledì", "Giovedì", "Venerdì"};
+
+        // Array delle ore (corrispondono alle righe 0-7)
+        int[] oreInizio = {8, 9, 10, 11, 12, 13, 14, 15};
+
+        // Pulisci la tabella (mantieni solo la colonna delle ore)
+        for (int riga = 0; riga < model.getRowCount(); riga++) {
+            for (int colonna = 1; colonna <= 5; colonna++) {
+                model.setValueAt("", riga, colonna);
+            }
+        }
+
+        // Itera su tutte le lezioni del database
+        for (Lezione lezione : database.lezioni) {
+
+            // Trova l'indice del giorno (colonna)
+            int colonnaGiorno = -1;
+            for (int i = 0; i < giorni.length; i++) {
+                if (lezione.getGiorno().equalsIgnoreCase(giorni[i])) {
+                    colonnaGiorno = i + 1; // +1 perché la colonna 0 è "Ora"
+                    break;
+                }
+            }
+
+            // Se il giorno non è valido, salta questa lezione
+            if (colonnaGiorno == -1) continue;
+
+            // Trova l'indice dell'ora (riga)
+            int rigaOra = -1;
+            int oraInizioLezione = lezione.getOra().getOraInizio()[0];
+            for (int i = 0; i < oreInizio.length; i++) {
+                if (oreInizio[i] == oraInizioLezione) {
+                    rigaOra = i;
+                    break;
+                }
+            }
+
+            // Se l'ora non è valida, salta questa lezione
+            if (rigaOra == -1) continue;
+
+            // Crea il testo da visualizzare nella cella
+            String testoLezione = lezione.getMateria() + " - " +
+                                 lezione.getClasse() + " - " +
+                                 lezione.getDocentiString();
+
+            // Ottieni la durata della lezione in ore
+            int durataOre = lezione.getOra().getDurata()[0];
+
+            // Inserisci la lezione in tutte le celle corrispondenti alla durata
+            for (int h = 0; h < durataOre && (rigaOra + h) < model.getRowCount(); h++) {
+                model.setValueAt(testoLezione, rigaOra + h, colonnaGiorno);
+            }
+        }
+        model.fireTableDataChanged();
+        tabellaLezioni.repaint();
+    }
+
+    // Metodo per popolare la tabella con le lezioni di una specifica classe
+    public void popolaTabellaClasse(String classe) {
+        // Ottieni il modello della tabella
+        DefaultTableModel model = (DefaultTableModel) tabellaLezioni.getModel();
+
+        // Array dei giorni della settimana (corrispondono alle colonne 1-5)
+        String[] giorni = {"Lunedì", "Martedì", "Mercoledì", "Giovedì", "Venerdì"};
+
+        // Array delle ore (corrispondono alle righe 0-7)
+        int[] oreInizio = {8, 9, 10, 11, 12, 13, 14, 15};
+
+        // Pulisci la tabella (mantieni solo la colonna delle ore)
+        for (int riga = 0; riga < model.getRowCount(); riga++) {
+            for (int colonna = 1; colonna <= 5; colonna++) {
+                model.setValueAt("", riga, colonna);
+            }
+        }
+
+        // Itera su tutte le lezioni del database
+        for (Lezione lezione : database.lezioni) {
+
+            // Filtra solo le lezioni della classe specificata
+            if (!lezione.getClasse().equalsIgnoreCase(classe)) {
+                continue;
+            }
+
+            // Trova l'indice del giorno (colonna)
+            int colonnaGiorno = -1;
+            for (int i = 0; i < giorni.length; i++) {
+                if (lezione.getGiorno().equalsIgnoreCase(giorni[i])) {
+                    colonnaGiorno = i + 1; // +1 perché la colonna 0 è "Ora"
+                    break;
+                }
+            }
+
+            // Se il giorno non è valido, salta questa lezione
+            if (colonnaGiorno == -1) continue;
+
+            // Trova l'indice dell'ora (riga)
+            int rigaOra = -1;
+            int oraInizioLezione = lezione.getOra().getOraInizio()[0];
+            for (int i = 0; i < oreInizio.length; i++) {
+                if (oreInizio[i] == oraInizioLezione) {
+                    rigaOra = i;
+                    break;
+                }
+            }
+
+            // Se l'ora non è valida, salta questa lezione
+            if (rigaOra == -1) continue;
+
+            // Crea il testo da visualizzare nella cella (senza la classe, già nota)
+            String testoLezione = lezione.getMateria() + " - " +
+                                 lezione.getDocentiString();
+
+            // Ottieni la durata della lezione in ore
+            int durataOre = lezione.getOra().getDurata()[0];
+
+            // Inserisci la lezione in tutte le celle corrispondenti alla durata
+            for (int h = 0; h < durataOre && (rigaOra + h) < model.getRowCount(); h++) {
+                model.setValueAt(testoLezione, rigaOra + h, colonnaGiorno);
+            }
+        }
+        model.fireTableDataChanged();
+        tabellaLezioni.repaint();
+    }
+
+    // Metodo per popolare la tabella con le lezioni di un specifico docente
+    public void popolaTabellaDocente(String nomeDocente) {
+        // Ottieni il modello della tabella
+        DefaultTableModel model = (DefaultTableModel) tabellaLezioni.getModel();
+
+        // Array dei giorni della settimana (corrispondono alle colonne 1-5)
+        String[] giorni = {"Lunedì", "Martedì", "Mercoledì", "Giovedì", "Venerdì"};
+
+        // Array delle ore (corrispondono alle righe 0-7)
+        int[] oreInizio = {8, 9, 10, 11, 12, 13, 14, 15};
+
+        // Pulisci la tabella (mantieni solo la colonna delle ore)
+        for (int riga = 0; riga < model.getRowCount(); riga++) {
+            for (int colonna = 1; colonna <= 5; colonna++) {
+                model.setValueAt("", riga, colonna);
+            }
+        }
+
+        // Itera su tutte le lezioni del database
+        for (Lezione lezione : database.lezioni) {
+
+            // Filtra solo le lezioni che hanno il docente specificato
+            boolean docenteTrovato = false;
+            for (Docente docente : lezione.getDocenti()) {
+                if (docente.getNome().equalsIgnoreCase(nomeDocente)) {
+                    docenteTrovato = true;
+                    break;
+                }
+            }
+
+            // Se il docente non è in questa lezione, salta
+            if (!docenteTrovato) {
+                continue;
+            }
+
+            // Trova l'indice del giorno (colonna)
+            int colonnaGiorno = -1;
+            for (int i = 0; i < giorni.length; i++) {
+                if (lezione.getGiorno().equalsIgnoreCase(giorni[i])) {
+                    colonnaGiorno = i + 1; // +1 perché la colonna 0 è "Ora"
+                    break;
+                }
+            }
+
+            // Se il giorno non è valido, salta questa lezione
+            if (colonnaGiorno == -1) continue;
+
+            // Trova l'indice dell'ora (riga)
+            int rigaOra = -1;
+            int oraInizioLezione = lezione.getOra().getOraInizio()[0];
+            for (int i = 0; i < oreInizio.length; i++) {
+                if (oreInizio[i] == oraInizioLezione) {
+                    rigaOra = i;
+                    break;
+                }
+            }
+
+            // Se l'ora non è valida, salta questa lezione
+            if (rigaOra == -1) continue;
+
+            // Crea il testo da visualizzare nella cella (senza il docente, già noto)
+            String testoLezione = lezione.getMateria() + " - " +
+                                 lezione.getClasse();
+
+            // Ottieni la durata della lezione in ore
+            int durataOre = lezione.getOra().getDurata()[0];
+
+            // Inserisci la lezione in tutte le celle corrispondenti alla durata
+            for (int h = 0; h < durataOre && (rigaOra + h) < model.getRowCount(); h++) {
+                model.setValueAt(testoLezione, rigaOra + h, colonnaGiorno);
+            }
+        }
+        model.fireTableDataChanged();
+        tabellaLezioni.repaint();
     }
 
     // Getter per i componenti (utili per будущих implementazioni)

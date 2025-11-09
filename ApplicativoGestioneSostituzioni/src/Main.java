@@ -9,6 +9,7 @@ public class Main {
     private static Database database;
     private static LettoreSistema lettoreSistema;
     private static PrimoAvvio primoAvvio;
+    private static interfacciaPrincipale interfacciaPrincipale;
 
 
     public static void main(String[] args) throws IOException {
@@ -48,7 +49,7 @@ public class Main {
     }
 
     private static void startInterfacciaPrincipale() {
-        interfacciaPrincipale interfacciaPrincipale = new interfacciaPrincipale();
+        interfacciaPrincipale = new interfacciaPrincipale();
         interfacciaPrincipale.setDatabase(database);
         interfacciaPrincipale.popolaComboBoxClassi(database.getClassi());
         interfacciaPrincipale.popolaComboBoxDocenti(database.getStrDocenti());

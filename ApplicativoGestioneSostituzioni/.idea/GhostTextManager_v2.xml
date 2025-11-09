@@ -39,6 +39,23 @@
             </GhostTextMetaData>
           </value>
         </entry>
+        <entry key="adesso non carica nessuna lezione">
+          <value>
+            <GhostTextMetaData>
+              <option name="count" value="6.0" />
+              <option name="timestamps">
+                <list>
+                  <option value="1762707960682" />
+                  <option value="1762707960473" />
+                  <option value="1762707960265" />
+                  <option value="1762707959893" />
+                  <option value="1762707958557" />
+                  <option value="1762707945534" />
+                </list>
+              </option>
+            </GhostTextMetaData>
+          </value>
+        </entry>
         <entry key="alla linea 23 fai in modo di stanziare le lezioni tramite le informazioni in str">
           <value>
             <GhostTextMetaData>
@@ -51,6 +68,18 @@
             </GhostTextMetaData>
           </value>
         </entry>
+        <entry key="come faccio a fare in modo che se seleziono un docente non ci sia selezionata una classe e viceversa">
+          <value>
+            <GhostTextMetaData>
+              <option name="count" value="1.0" />
+              <option name="timestamps">
+                <list>
+                  <option value="1762701805013" />
+                </list>
+              </option>
+            </GhostTextMetaData>
+          </value>
+        </entry>
         <entry key="cosa causa il problema dimmi come risolvero ma non farlo">
           <value>
             <GhostTextMetaData>
@@ -58,6 +87,42 @@
               <option name="timestamps">
                 <list>
                   <option value="1762615649316" />
+                </list>
+              </option>
+            </GhostTextMetaData>
+          </value>
+        </entry>
+        <entry key="ecco gli output">
+          <value>
+            <GhostTextMetaData>
+              <option name="count" value="1.0" />
+              <option name="timestamps">
+                <list>
+                  <option value="1762707137566" />
+                </list>
+              </option>
+            </GhostTextMetaData>
+          </value>
+        </entry>
+        <entry key="elimina i messaggi di debug">
+          <value>
+            <GhostTextMetaData>
+              <option name="count" value="1.0" />
+              <option name="timestamps">
+                <list>
+                  <option value="1762706001559" />
+                </list>
+              </option>
+            </GhostTextMetaData>
+          </value>
+        </entry>
+        <entry key="fai due metodi il popola tabella classe e il popola tabella docente che popoleranno la tabella con tutte le lezioni di una classe o con tutte le lezioni di un docente">
+          <value>
+            <GhostTextMetaData>
+              <option name="count" value="1.0" />
+              <option name="timestamps">
+                <list>
+                  <option value="1762701293985" />
                 </list>
               </option>
             </GhostTextMetaData>
@@ -87,6 +152,18 @@
             </GhostTextMetaData>
           </value>
         </entry>
+        <entry key="fallo pure col tuo metodo, se in quell'ora non c'e nessuno non fare nulla">
+          <value>
+            <GhostTextMetaData>
+              <option name="count" value="1.0" />
+              <option name="timestamps">
+                <list>
+                  <option value="1762700683121" />
+                </list>
+              </option>
+            </GhostTextMetaData>
+          </value>
+        </entry>
         <entry key="gli id devono essere numeri interi progressivi">
           <value>
             <GhostTextMetaData>
@@ -94,6 +171,55 @@
               <option name="timestamps">
                 <list>
                   <option value="1762272409140" />
+                </list>
+              </option>
+            </GhostTextMetaData>
+          </value>
+        </entry>
+        <entry key="ho lo stesso problema">
+          <value>
+            <GhostTextMetaData>
+              <option name="count" value="1.0" />
+              <option name="timestamps">
+                <list>
+                  <option value="1762705461886" />
+                </list>
+              </option>
+            </GhostTextMetaData>
+          </value>
+        </entry>
+        <entry key="i confronti sono giusti">
+          <value>
+            <GhostTextMetaData>
+              <option name="count" value="1.0" />
+              <option name="timestamps">
+                <list>
+                  <option value="1762705788814" />
+                </list>
+              </option>
+            </GhostTextMetaData>
+          </value>
+        </entry>
+        <entry key="il cognome 1 nelle comboboz dei docenti non mi viene considerato poi se seleziono un docente e dopo un altro non mi viene ricaricata la tabella">
+          <value>
+            <GhostTextMetaData>
+              <option name="count" value="2.0" />
+              <option name="timestamps">
+                <list>
+                  <option value="1762704877584" />
+                  <option value="1762703572672" />
+                </list>
+              </option>
+            </GhostTextMetaData>
+          </value>
+        </entry>
+        <entry key="il programma tiene conto di quando una lezione dura 2h per il riempimento della tabella?">
+          <value>
+            <GhostTextMetaData>
+              <option name="count" value="1.0" />
+              <option name="timestamps">
+                <list>
+                  <option value="1762704110580" />
                 </list>
               </option>
             </GhostTextMetaData>
@@ -123,6 +249,18 @@
             </GhostTextMetaData>
           </value>
         </entry>
+        <entry key="le lezioni di due ore sono contemplate nella tabella">
+          <value>
+            <GhostTextMetaData>
+              <option name="count" value="1.0" />
+              <option name="timestamps">
+                <list>
+                  <option value="1762708243151" />
+                </list>
+              </option>
+            </GhostTextMetaData>
+          </value>
+        </entry>
         <entry key="le virgolette">
           <value>
             <GhostTextMetaData>
@@ -130,6 +268,18 @@
               <option name="timestamps">
                 <list>
                   <option value="1762614499031" />
+                </list>
+              </option>
+            </GhostTextMetaData>
+          </value>
+        </entry>
+        <entry key="ma non mi ricarica correttamente se filtro per un docente e dopo filtro per un altro">
+          <value>
+            <GhostTextMetaData>
+              <option name="count" value="1.0" />
+              <option name="timestamps">
+                <list>
+                  <option value="1762705196178" />
                 </list>
               </option>
             </GhostTextMetaData>
@@ -220,6 +370,18 @@
             </GhostTextMetaData>
           </value>
         </entry>
+        <entry key="non funziona molto bene il mio action listrener sul bntricarica tabella">
+          <value>
+            <GhostTextMetaData>
+              <option name="count" value="1.0" />
+              <option name="timestamps">
+                <list>
+                  <option value="1762703220809" />
+                </list>
+              </option>
+            </GhostTextMetaData>
+          </value>
+        </entry>
         <entry key="non popola le combobox dell' interfaccia principale">
           <value>
             <GhostTextMetaData>
@@ -257,6 +419,30 @@
             </GhostTextMetaData>
           </value>
         </entry>
+        <entry key="per ogni docente esce lo stesso orario">
+          <value>
+            <GhostTextMetaData>
+              <option name="count" value="1.0" />
+              <option name="timestamps">
+                <list>
+                  <option value="1762706194748" />
+                </list>
+              </option>
+            </GhostTextMetaData>
+          </value>
+        </entry>
+        <entry key="per ogni docente trova troppe lezioni">
+          <value>
+            <GhostTextMetaData>
+              <option name="count" value="1.0" />
+              <option name="timestamps">
+                <list>
+                  <option value="1762706691262" />
+                </list>
+              </option>
+            </GhostTextMetaData>
+          </value>
+        </entry>
         <entry key="rendilo piu bello, usando un tema scuro">
           <value>
             <GhostTextMetaData>
@@ -281,6 +467,18 @@
             </GhostTextMetaData>
           </value>
         </entry>
+        <entry key="spiegami come popolare la tabella , il mio approccio è quello di verificare tra tutte le lezioni quale è nell' ora e giorno della tabella">
+          <value>
+            <GhostTextMetaData>
+              <option name="count" value="1.0" />
+              <option name="timestamps">
+                <list>
+                  <option value="1762700013514" />
+                </list>
+              </option>
+            </GhostTextMetaData>
+          </value>
+        </entry>
         <entry key="ti faccio due esempi 1,1h00,Lettere,Cognome3,4^ B TUR,N,Lunedi,8h00 20,1h00,A TE/PRO FIS,Cognome36;Cognome62;1^ C IeFP; S,lunedì,08h00">
           <value>
             <GhostTextMetaData>
@@ -300,6 +498,18 @@
               <option name="timestamps">
                 <list>
                   <option value="1762272259429" />
+                </list>
+              </option>
+            </GhostTextMetaData>
+          </value>
+        </entry>
+        <entry key="voglio che la tabella si aggiuorni unicamente quando schiaccio ricarica tabella">
+          <value>
+            <GhostTextMetaData>
+              <option name="count" value="1.0" />
+              <option name="timestamps">
+                <list>
+                  <option value="1762705145089" />
                 </list>
               </option>
             </GhostTextMetaData>

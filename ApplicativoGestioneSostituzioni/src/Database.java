@@ -9,6 +9,7 @@ public class Database {
     ArrayList<Docente> docenti;
     ArrayList<String> classi;
     LettoreCSV lettoreCSV;
+    ArrayList<Lezione> lezioni;
     Ora[] ore={new Ora(8, 0, 1, 0), new Ora(9, 0, 1, 0), new Ora(10, 0, 1, 0), new Ora(11, 10, 1, 0), new Ora(12, 0, 1, 0), new Ora(13, 0, 1, 0), new Ora(14, 0, 1, 0)};
 
 
@@ -17,13 +18,12 @@ public class Database {
         lettoreCSV = new LettoreCSV(src);
         docenti = new ArrayList<>();
         classi = new ArrayList<>();
+        lezioni = new ArrayList<>();
 
     }
 
     public void letturaFile(){
         String[] campi ;
-        ArrayList<Docente> docentiLezione = new ArrayList<>();
-
 
         try {
             while ((campi = lettoreCSV.leggiLinea()) != null ) {
@@ -42,9 +42,6 @@ public class Database {
                  String[] oraInizioStr = campi[7].split("h");
                  String[] docentiStr = campi[3].split(";");
 
-                 for (String campiStr : campi) {
-                     System.out.println(campiStr);
-                 }
 
                  if (campi.length >= 8) {
 
@@ -54,7 +51,8 @@ public class Database {
                      String classe = campi[4];
                      String giorno = campi[6];
 
-
+                     // Crea un nuovo ArrayList per i docenti di questa lezione
+                     ArrayList<Docente> docentiLezione = new ArrayList<>();
 
                      for (int i = 0; i < docentiStr.length; i++) {
                          Docente doc = new Docente(docentiStr[i]);
@@ -72,6 +70,8 @@ public class Database {
                          doc.aggiungiClasseInsegnata(classe);
 
                      }
+
+                     lezioni.add(new Lezione(id, materia, classe, giorno, docentiLezione, new Ora(Integer.parseInt(oraInizioStr[0]), Integer.parseInt(oraInizioStr[1]), Integer.parseInt(durataStr[0]), Integer.parseInt(durataStr[1]))));
 
                      for (Docente d : docenti) {
 
@@ -119,6 +119,18 @@ public class Database {
         }
         return strDocenti;
 
+    }
+
+    public Lezione getLezione(Ora ora){
+        for (Lezione lezione : lezioni) {
+
+            if(lezione.getOra().sovrapposizioneOra(ora)){
+                return lezione;
+            }
+
+        }
+
+        return null;
     }
 
     public ArrayList<String> getClassi() {
