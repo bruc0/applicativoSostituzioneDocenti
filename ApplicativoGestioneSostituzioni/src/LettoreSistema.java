@@ -7,8 +7,9 @@ public class LettoreSistema {
     private FileInputStream in;
 
     public LettoreSistema() {
-        src = new File("settings.dat");
-        pathCsv = new File("src.txt");
+
+        src = new File("ApplicativoGestioneSostituzioni/settings.dat");
+        pathCsv = new File("ApplicativoGestioneSostituzioni/src.txt");
         try {
             in = new FileInputStream(src);
             writePrimoAccesso(false);
@@ -71,7 +72,7 @@ public class LettoreSistema {
 
             try {
                 // Crea il file settings.dat
-                File settingsFile = new File("src.txt");
+                File settingsFile = new File("/home/bruc0/Desktop/java_exercises/applicativoSostituzioneDocenti/ApplicativoGestioneSostituzioni/src.txt");
 
                 // Crea un nuovo file vuoto
                 boolean created = settingsFile.createNewFile();
