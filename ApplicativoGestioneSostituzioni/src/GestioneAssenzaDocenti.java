@@ -119,6 +119,7 @@ public class GestioneAssenzaDocenti extends JFrame {
         modelTabella.setRowCount(0);
 
         ArrayList<Docente> docenti = database.getDocenti();
+        docenti.sort((d1, d2) -> d1.getNome().compareToIgnoreCase(d2.getNome()));
         for (Docente docente : docenti) {
             String nomeDocente = docente.getNome();
             String assenze = getAssenzeString(nomeDocente);

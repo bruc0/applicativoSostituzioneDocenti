@@ -127,13 +127,4 @@ public class SelezioneFileCsv extends JFrame {
         return fileSelezionato;
     }
 
-    public static void main(String[] args) {
-        SwingUtilities.invokeLater(new Runnable() {
-            @Override
-            public void run() {
-                SelezioneFileCsv gui = new SelezioneFileCsv();
-                gui.setVisible(true);
-            }
-        });
-    }
 }

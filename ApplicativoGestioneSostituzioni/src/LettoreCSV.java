@@ -5,6 +5,7 @@ import java.io.*;
 public class LettoreCSV {
 
     private File src;
+    private File fileOutput;
     private static final String CSV_DELIMITER = ",";
     private BufferedReader lettoreCsv;
 
@@ -13,6 +14,7 @@ public class LettoreCSV {
     public LettoreCSV(File src) throws FileNotFoundException {
         this.src = src;
         lettoreCsv = new BufferedReader(new FileReader(src));
+        this.fileOutput = new File("ApplicativoGestioneSostituzioni/Orario_docenti_export.csv");
     }
 
     public String[] leggiLinea() throws IOException {

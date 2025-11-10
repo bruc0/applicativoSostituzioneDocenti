@@ -22,17 +22,17 @@ public class interfacciaPrincipale {
     }
 
     private void inizializzaInterfaccia() {
-        // Creazione del frame principale con tema scuro
-        frame = new JFrame("Gestione Sostituzioni");
+        // Creazione del frame principale con tema scuro moderno
+        frame = new JFrame("Gestione Sostituzioni Docenti");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        frame.setSize(1200, 700);
+        frame.setSize(1400, 800);
         frame.setLocationRelativeTo(null);
-        frame.getContentPane().setBackground(new Color(45, 45, 48));
+        frame.getContentPane().setBackground(new Color(30, 30, 35));
 
-        // Creazione del pannello principale
-        JPanel pannelloPrincipale = new JPanel(new BorderLayout());
-        pannelloPrincipale.setBackground(new Color(45, 45, 48));
-        pannelloPrincipale.setBorder(new EmptyBorder(10, 10, 10, 10));
+        // Creazione del pannello principale con gradiente
+        JPanel pannelloPrincipale = new JPanel(new BorderLayout(0, 15));
+        pannelloPrincipale.setBackground(new Color(30, 30, 35));
+        pannelloPrincipale.setBorder(new EmptyBorder(20, 20, 20, 20));
 
         // Creazione del menu superiore con tema scuro
         JPanel pannelloMenu = new JPanel(new FlowLayout(FlowLayout.LEFT));
@@ -47,7 +47,7 @@ public class interfacciaPrincipale {
         JLabel labelDocente = new JLabel("Docente:");
         labelDocente.setPreferredSize(new Dimension(80, 25));
         labelDocente.setForeground(Color.WHITE);
-        labelDocente.setFont(new Font("Segoe UI", Font.BOLD, 14));
+        labelDocente.setFont(new Font("SansSerif", Font.BOLD, 14));
         pannelloMenu.add(labelDocente);
 
         comboBoxDocenti = new JComboBox<>();
@@ -62,7 +62,7 @@ public class interfacciaPrincipale {
         JLabel labelClasse = new JLabel("Classe:");
         labelClasse.setPreferredSize(new Dimension(80, 25));
         labelClasse.setForeground(Color.WHITE);
-        labelClasse.setFont(new Font("Segoe UI", Font.BOLD, 14));
+        labelClasse.setFont(new Font("SansSerif", Font.BOLD, 14));
         pannelloMenu.add(labelClasse);
 
         comboBoxClassi = new JComboBox<>();
@@ -224,12 +224,13 @@ public class interfacciaPrincipale {
         tabella.getColumnModel().getColumn(4).setPreferredWidth(180); // Giovedì
         tabella.getColumnModel().getColumn(5).setPreferredWidth(180); // Venerdì
 
-        // Font moderni
-        tabella.setFont(new Font("Segoe UI", Font.PLAIN, 13));
-        tabella.getTableHeader().setFont(new Font("Segoe UI", Font.BOLD, 14));
+        // Font moderni - usa SansSerif invece di Segoe UI per compatibilità Linux
+        tabella.setFont(new Font("SansSerif", Font.PLAIN, 13));
+        tabella.getTableHeader().setFont(new Font("SansSerif", Font.BOLD, 14));
         tabella.getTableHeader().setBackground(new Color(65, 65, 68));
         tabella.getTableHeader().setForeground(Color.WHITE);
         tabella.getTableHeader().setBorder(BorderFactory.createLineBorder(new Color(80, 80, 82)));
+        tabella.getTableHeader().setOpaque(true);
 
         // Colori generali
         tabella.setBackground(new Color(45, 45, 48));
@@ -241,7 +242,7 @@ public class interfacciaPrincipale {
     }
 
     private void stileComboBox(JComboBox<String> comboBox) {
-        comboBox.setFont(new Font("Segoe UI", Font.PLAIN, 12));
+        comboBox.setFont(new Font("SansSerif", Font.PLAIN, 12));
         comboBox.setBackground(new Color(65, 65, 68));
         comboBox.setForeground(Color.WHITE);
         comboBox.setBorder(BorderFactory.createLineBorder(new Color(80, 80, 82)));
@@ -263,9 +264,15 @@ public class interfacciaPrincipale {
     }
 
     private void stileBottone(JButton bottone, Color colorePrincipale) {
-        bottone.setFont(new Font("Segoe UI", Font.BOLD, 12));
+        // Forza il rendering personalizzato
+        bottone.setUI(new javax.swing.plaf.basic.BasicButtonUI());
+
+        bottone.setFont(new Font("SansSerif", Font.BOLD, 13));
         bottone.setBackground(colorePrincipale);
         bottone.setForeground(Color.WHITE);
+        bottone.setOpaque(true);
+        bottone.setBorderPainted(true);
+        bottone.setContentAreaFilled(true);
         bottone.setBorder(BorderFactory.createCompoundBorder(
             BorderFactory.createLineBorder(colorePrincipale.darker(), 2),
             new EmptyBorder(8, 15, 8, 15)
@@ -277,9 +284,11 @@ public class interfacciaPrincipale {
         bottone.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseEntered(java.awt.event.MouseEvent evt) {
                 bottone.setBackground(colorePrincipale.brighter());
+                bottone.setForeground(Color.WHITE);
             }
             public void mouseExited(java.awt.event.MouseEvent evt) {
                 bottone.setBackground(colorePrincipale);
+                bottone.setForeground(Color.WHITE);
             }
         });
     }
