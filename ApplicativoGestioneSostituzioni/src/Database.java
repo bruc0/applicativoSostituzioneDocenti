@@ -43,6 +43,7 @@ public class Database {
                  String[] durataStr = campi[1].split("h");
                  String[] oraInizioStr = campi[7].split("h");
                  String[] docentiStr = campi[3].split(";");
+                 char coDocente = campi[5].equals("N") ? 'N' : 'S';
 
 
                  if (campi.length >= 8) {
@@ -73,7 +74,7 @@ public class Database {
 
                      }
 
-                     lezioni.add(new Lezione(id, materia, classe, giorno, docentiLezione, new Ora(Integer.parseInt(oraInizioStr[0]), Integer.parseInt(oraInizioStr[1]), Integer.parseInt(durataStr[0]), Integer.parseInt(durataStr[1]))));
+                     lezioni.add(new Lezione(id, materia, classe, giorno, docentiLezione, new Ora(Integer.parseInt(oraInizioStr[0]), Integer.parseInt(oraInizioStr[1]), Integer.parseInt(durataStr[0]), Integer.parseInt(durataStr[1])), coDocente));
 
                      for (Docente d : docenti) {
 
@@ -156,6 +157,12 @@ public class Database {
         return assenzeDocenti;
     }
 
+    public void scriviFile() throws IOException {
+        for (Lezione lezione : lezioni) {
+            lettoreCSV.scriviLinea(lezione);
+        }
+    }
+
     /**
      * Metodo principale per gestire le sostituzioni dei docenti assenti.
      * Identifica le lezioni che necessitano di sostituzione e trova docenti disponibili.
@@ -171,20 +178,24 @@ public class Database {
         for (Lezione lezione : lezioneDaSostituire) {
             Docente sostituto = trovaDocenteSostituto(lezione);
             if (sostituto != null) {
-                System.out.println("Lezione: " + lezione.getMateria() + " - " + lezione.getClasse() +
-                                 " (" + lezione.getGiorno() + " " + lezione.getOra().getOraInizio()[0] + ":" +
-                                 String.format("%02d", lezione.getOra().getOraInizio()[1]) + ")");
-                System.out.println("  Docente assente: " + lezione.getDocentiString());
-                System.out.println("  Docente sostituto: " + sostituto.getNome());
-                System.out.println();
+              for(Lezione lez : this.lezioni){
+                  if(lez.equals(lezione)){
+                      lezioni.set(lezioni.indexOf(lez), new Lezione(lez.getId(), "Supplenza", lez.getClasse(), lez.getGiorno(), sostituto, lez.getOra(), 'S'));
+
+                  }
+              }
+
             } else {
-                System.out.println("ATTENZIONE: Nessun sostituto trovato per la lezione:");
-                System.out.println("  " + lezione.getMateria() + " - " + lezione.getClasse() +
-                                 " (" + lezione.getGiorno() + " " + lezione.getOra().getOraInizio()[0] + ":" +
-                                 String.format("%02d", lezione.getOra().getOraInizio()[1]) + ")");
-                System.out.println();
+                for(Lezione lez : this.lezioni){
+                    if(lez.equals(lezione)){
+                        lezioni.set(lezioni.indexOf(lez), new Lezione(lez.getId(), "Supplenza non disponibile", lez.getClasse(), lez.getGiorno(), sostituto, lez.getOra(), 'S'));
+                        lettoreCSV.setSrc(new File("ApplicativoGestioneSostituzioni/Orario.csv"));
+                    }
+                }
+
             }
         }
+        lettoreCSV.setSrc(new File("ApplicativoGestioneSostituzioni/Orario.csv"));
     }
 
     /**

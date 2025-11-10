@@ -21,7 +21,7 @@ public class PrimoAvvio extends JFrame {
 
 
         setLayout(new BorderLayout(15, 15));
-        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         setSize(500, 150);
         setLocationRelativeTo(null);
 

@@ -104,6 +104,18 @@
             </GhostTextMetaData>
           </value>
         </entry>
+        <entry key="cosa fa il comando">
+          <value>
+            <GhostTextMetaData>
+              <option name="count" value="1.0" />
+              <option name="timestamps">
+                <list>
+                  <option value="1762806010511" />
+                </list>
+              </option>
+            </GhostTextMetaData>
+          </value>
+        </entry>
         <entry key="crea una bottone esporta nel menu che scrive su un nuovofile csv le lezioni">
           <value>
             <GhostTextMetaData>
@@ -112,6 +124,18 @@
                 <list>
                   <option value="1762714813806" />
                   <option value="1762714813090" />
+                </list>
+              </option>
+            </GhostTextMetaData>
+          </value>
+        </entry>
+        <entry key="crea una classe che esporti il file Orario.csv in pdf">
+          <value>
+            <GhostTextMetaData>
+              <option name="count" value="1.0" />
+              <option name="timestamps">
+                <list>
+                  <option value="1762805949284" />
                 </list>
               </option>
             </GhostTextMetaData>
@@ -148,6 +172,18 @@
               <option name="timestamps">
                 <list>
                   <option value="1762706001559" />
+                </list>
+              </option>
+            </GhostTextMetaData>
+          </value>
+        </entry>
+        <entry key="eyJhbGciOiJSUzI1NiIsImNhdCI6ImNsX0I3ZDRQRDIyMkFBQSIsImtpZCI6Imluc18yeTFHVm1vb2JZeW5NUERjd0QxWnFFWkpQbHQiLCJ0eXAiOiJKV1QifQ.eyJhenAiOiJodHRwczovL2FwcC5zd2VlcC5kZXYiLCJlbWFpbCI6ImdpYW5sdWNhdmFsZW5hMDdAZ21haWwuY29tIiwiZXhwIjoyMDc4MTY2NzgwLCJpYXQiOjE3NjI4MDY3ODAsImlzcyI6Imh0dHBzOi8vY2xlcmsuc3dlZXAuZGV2IiwianRpIjoiZWU5MjY3ODE5NzBkZWM4ZTQxZWUiLCJuYmYiOjE3NjI4MDY3NzUsIm9yZ19pbmZvIjp7fSwic3ViIjoidXNlcl8zNHhzMTFsTjBJMWRVeXVKU2hQNEpzQnByNVkiLCJ1c2VyX2lkIjoidXNlcl8zNHhzMTFsTjBJMWRVeXVKU2hQNEpzQnByNVkifQ.HucCHsbJMaQ0bH5KmPOj67XC8_ClEEi7ypM1dQwAECtUf-fdygakFYYMb2LLGoCQ6QGQfkwQUb9BEt8R9MqMU6SJljNV2v3NX1u9KOwJRUh3rir1RDfmq-hTM9iHC7iIesjZhddJzH05U0lqA-T4lBzL-TJXqMPUCdhKpsi4etSUUpufXfd1UuQkIyqZA1QZaL8jJ6k2juRotAbogHNL9WT_Hj4aKqG_Pg17x9bNC3kHvVq9ClG1as4QzSrHlRpILwYyqlRmds6CUurAbxLYHADo8Tmd4c_UejhVlDuPAiVZ1qaOvVADYGR8tFczxaDtfvQwasXMP0oMvyIBAOLY7w">
+          <value>
+            <GhostTextMetaData>
+              <option name="count" value="1.0" />
+              <option name="timestamps">
+                <list>
+                  <option value="1762806847497" />
                 </list>
               </option>
             </GhostTextMetaData>
@@ -220,6 +256,18 @@
               <option name="timestamps">
                 <list>
                   <option value="1762272409140" />
+                </list>
+              </option>
+            </GhostTextMetaData>
+          </value>
+        </entry>
+        <entry key="guarda nonostante io debba pagare io volevo solo ringraziarti per tutto l' aiuto che mi hai dato per lo sviluppo di questo programma, grazie mille davvero">
+          <value>
+            <GhostTextMetaData>
+              <option name="count" value="1.0" />
+              <option name="timestamps">
+                <list>
+                  <option value="1762807013654" />
                 </list>
               </option>
             </GhostTextMetaData>
@@ -463,6 +511,18 @@
                 <list>
                   <option value="1762617035869" />
                   <option value="1762617034116" />
+                </list>
+              </option>
+            </GhostTextMetaData>
+          </value>
+        </entry>
+        <entry key="ora migliora l'interfaccia in modo da renderla bella leggibile su qualsiasi pc">
+          <value>
+            <GhostTextMetaData>
+              <option name="count" value="1.0" />
+              <option name="timestamps">
+                <list>
+                  <option value="1762806597654" />
                 </list>
               </option>
             </GhostTextMetaData>

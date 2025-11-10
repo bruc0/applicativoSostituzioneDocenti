@@ -3,7 +3,9 @@ import javax.swing.table.DefaultTableModel;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Comparator;
 import java.util.HashMap;
 import java.util.HashSet;
 
@@ -105,6 +107,11 @@ public class GestioneAssenzaDocenti extends JFrame {
                 confermaAssenze();
                 database.setAssenzeDocenti(assenzeDocenti);
                 database.Sostituzione();
+                try {
+                    database.scriviFile();
+                } catch (IOException ex) {
+                    throw new RuntimeException(ex);
+                }
             }
         });
 
@@ -119,6 +126,7 @@ public class GestioneAssenzaDocenti extends JFrame {
         modelTabella.setRowCount(0);
 
         ArrayList<Docente> docenti = database.getDocenti();
+        docenti.sort(Comparator.comparing(Docente::getNome));
         for (Docente docente : docenti) {
             String nomeDocente = docente.getNome();
             String assenze = getAssenzeString(nomeDocente);

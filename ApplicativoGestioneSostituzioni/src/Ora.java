@@ -45,4 +45,10 @@ public class Ora {
         return (this.oraInizio[0] <= ora.oraInizio[0] && this.oraInizio[0] + this.durata[0] > ora.oraInizio[0]) ||
                 (this.oraInizio[0] < ora.oraInizio[0] && this.oraInizio[0] + this.durata[0] >= ora.oraInizio[0] + ora.durata[0]);
     }
+
+
+    public String toString(int ore, int minuti) {
+        return ore + "h" + minuti;
+    }
+
 }

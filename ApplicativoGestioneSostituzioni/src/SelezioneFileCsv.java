@@ -18,7 +18,7 @@ public class SelezioneFileCsv extends JFrame {
         // Configurazione della finestra
         setTitle("Selezione File CSV");
         setSize(600, 200);
-        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         setLocationRelativeTo(null);
         setLayout(new BorderLayout(10, 10));
 
@@ -127,13 +127,5 @@ public class SelezioneFileCsv extends JFrame {
         return fileSelezionato;
     }
 
-    public static void main(String[] args) {
-        SwingUtilities.invokeLater(new Runnable() {
-            @Override
-            public void run() {
-                SelezioneFileCsv gui = new SelezioneFileCsv();
-                gui.setVisible(true);
-            }
-        });
-    }
+
 }
