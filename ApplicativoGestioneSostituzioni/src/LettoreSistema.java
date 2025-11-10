@@ -8,8 +8,8 @@ public class LettoreSistema {
 
     public LettoreSistema() {
 
-        src = new File("ApplicativoGestioneSostituzioni/settings.dat");
-        pathCsv = new File("ApplicativoGestioneSostituzioni/src.txt");
+        src = new File("settings.dat");
+        pathCsv = new File("src.txt");
         try {
             in = new FileInputStream(src);
             writePrimoAccesso(false);

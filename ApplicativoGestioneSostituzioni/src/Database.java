@@ -189,7 +189,7 @@ public class Database {
                 for(Lezione lez : this.lezioni){
                     if(lez.equals(lezione)){
                         lezioni.set(lezioni.indexOf(lez), new Lezione(lez.getId(), "Supplenza non disponibile", lez.getClasse(), lez.getGiorno(), sostituto, lez.getOra(), 'S'));
-                        lettoreCSV.setSrc(new File("ApplicativoGestioneSostituzioni/Orario.csv"));
+                        lettoreCSV.setSrc(new File("Orario.csv"));
                     }
                 }
 
